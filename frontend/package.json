@@ -1,0 +1,27 @@
+{
+  "name": "re-intent-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "predev": "node scripts/copy-ort-assets.mjs",
+    "dev": "vite --host 0.0.0.0",
+    "prebuild": "node scripts/copy-ort-assets.mjs",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@tensorflow-models/mobilenet": "^2.1.1",
+    "@tensorflow/tfjs-backend-cpu": "^4.22.0",
+    "@tensorflow/tfjs-backend-webgl": "^4.22.0",
+    "@tensorflow/tfjs-core": "^4.22.0",
+    "@ultralytics/yolo": "^0.0.51",
+    "onnxruntime-web": "^1.27.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "vite": "^8.3.4"
+  }
+}

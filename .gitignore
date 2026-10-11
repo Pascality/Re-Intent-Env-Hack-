@@ -1,0 +1,10 @@
+# Node dependencies and local environment files
+**/node_modules/
+frontend/dist/
+frontend/public/ort/
+.model-benchmark/
+.uv-cache/
+**/.env
+**/.env.*
+!.env.example
+npm-debug.log*

@@ -1,0 +1,462 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "id": "used-tissues-paper-towels",
+      "priority": 75,
+      "when": { "itemIds": ["tissues", "paper-towels"] },
+      "status": "available",
+      "title": "Keep used tissues and paper towels out of clean paper",
+      "text": "Put used tissues or paper towels in local non-recyclable waste, not the paper recycling bin. If they have bodily fluids or chemicals, ask your local service whether they need a separate collection."
+    },
+    {
+      "id": "receipts-and-tickets",
+      "priority": 70,
+      "when": { "itemIds": ["receipts", "tickets"] },
+      "status": "available",
+      "title": "Check whether this receipt or ticket is coated",
+      "text": "Thermal or coated receipts and tickets may not be accepted with ordinary paper. Keep them apart until you check your local paper collector's instructions."
+    },
+    {
+      "id": "cups-paper-contaminated",
+      "when": {
+        "itemIds": [
+          "cups"
+        ],
+        "materialIds": [
+          "paper"
+        ],
+        "condition": [
+          "contaminated"
+        ]
+      },
+      "status": "available",
+      "title": "Put the dirty paper cup in non-recyclable waste",
+      "text": "Empty it if safe. Do not put it in the paper recycling bin. If your local service collects used cups separately, use that collection instead.",
+      "priority": 60
+    },
+    {
+      "id": "cups-paper-lined",
+      "when": {
+        "itemIds": [
+          "cups"
+        ],
+        "materialIds": [
+          "paper"
+        ],
+        "lining": [
+          "yes"
+        ]
+      },
+      "status": "available",
+      "title": "Check collection for a lined cup",
+      "text": "Empty the cup. Its lining means it may not be accepted with ordinary paper. Use a separate used-cup collection if available; otherwise follow local non-recyclable waste instructions."
+    },
+    {
+      "id": "cups-paper-unlined",
+      "when": {
+        "itemIds": [
+          "cups"
+        ],
+        "materialIds": [
+          "paper"
+        ],
+        "lining": [
+          "no"
+        ]
+      },
+      "status": "available",
+      "title": "Keep the unlined cup clean and dry",
+      "text": "Empty the cup. Put it with paper only if your local collector accepts unlined paper cups; otherwise use local non-recyclable waste."
+    },
+    {
+      "id": "cups-paper-lining-unknown",
+      "when": {
+        "itemIds": [
+          "cups"
+        ],
+        "materialIds": [
+          "paper"
+        ],
+        "lining": [
+          "unknown"
+        ]
+      },
+      "status": "need_more_information",
+      "title": "Check whether the cup has a lining",
+      "text": "Empty and keep the cup dry. Look for a shiny or waterproof lining, then check whether your local collector accepts that type of cup. Do not assume it belongs with clean paper."
+    },
+    {
+      "id": "cups-plastic-contaminated",
+      "when": {
+        "itemIds": [
+          "cups"
+        ],
+        "materialIds": [
+          "plastic"
+        ],
+        "condition": [
+          "contaminated"
+        ]
+      },
+      "status": "available",
+      "title": "Dispose of the dirty plastic cup",
+      "text": "Empty the cup if safe. Keep it out of clean recycling while dirty. If you cannot clean it safely, use local non-recyclable waste collection.",
+      "priority": 60
+    },
+    {
+      "id": "cups-plastic-clean",
+      "when": {
+        "itemIds": [
+          "cups"
+        ],
+        "materialIds": [
+          "plastic"
+        ]
+      },
+      "status": "available",
+      "title": "Check plastic cup acceptance",
+      "text": "Keep the empty cup clean and dry. Ask your local collector whether it accepts this type of plastic cup before adding it to dry recyclables."
+    },
+    {
+      "id": "cups-glass",
+      "when": {
+        "itemIds": [
+          "cups"
+        ],
+        "materialIds": [
+          "glass"
+        ]
+      },
+      "status": "available",
+      "title": "Check the glass collection rules",
+      "text": "Keep an intact cup separate for reuse if safe. Drinking glasses are not always accepted with glass bottles and jars, so check your collector's rules. If broken, contain the pieces safely and follow local disposal instructions."
+    },
+    {
+      "id": "cups-ceramic",
+      "when": {
+        "itemIds": [
+          "cups"
+        ],
+        "materialIds": [
+          "ceramic"
+        ]
+      },
+      "status": "available",
+      "title": "Keep ceramics out of bottle-glass recycling",
+      "text": "If the cup is broken, contain sharp pieces safely. Ask your local collector how it handles ceramics; do not mix a ceramic cup with glass bottles."
+    },
+    {
+      "id": "cups-material-unknown",
+      "when": {
+        "itemIds": [
+          "cups"
+        ],
+        "noMaterial": true
+      },
+      "status": "need_more_information",
+      "title": "Choose the cup's material",
+      "text": "A paper, plastic, glass, or ceramic cup can need a different route. Select its material for a more useful next step."
+    },
+    {
+      "id": "bottles-glass-contaminated",
+      "priority": 60,
+      "when": { "itemIds": ["bottles", "glass-bottle"], "materialIds": ["glass"], "condition": ["contaminated"] },
+      "status": "available",
+      "title": "Keep the dirty glass bottle separate",
+      "text": "Empty the bottle if safe. If it can be cleaned safely, ask your local glass collector whether it accepts this kind of bottle. Otherwise keep it out of clean glass collection and follow local disposal instructions."
+    },
+    {
+      "id": "bottles-plastic-contaminated",
+      "when": {
+        "itemIds": [
+          "bottles",
+          "plastic-bottle"
+        ],
+        "materialIds": [
+          "plastic"
+        ],
+        "condition": [
+          "contaminated"
+        ]
+      },
+      "status": "available",
+      "title": "Empty the plastic bottle",
+      "text": "Empty the bottle if safe. Keep it out of clean recycling while dirty. If it can be cleaned safely, check whether your collector accepts this plastic bottle; otherwise follow local disposal instructions.",
+      "priority": 60
+    },
+    {
+      "id": "bottles-plastic-clean",
+      "when": {
+        "itemIds": [
+          "bottles",
+          "plastic-bottle"
+        ],
+        "materialIds": [
+          "plastic"
+        ]
+      },
+      "status": "available",
+      "title": "Keep the plastic bottle empty and dry",
+      "text": "Keep the empty bottle with dry materials. Check whether your local collector accepts its plastic type, and follow any instructions for the cap or pump."
+    },
+    {
+      "id": "bottles-glass-clean",
+      "when": {
+        "itemIds": [
+          "bottles",
+          "glass-bottle"
+        ],
+        "materialIds": [
+          "glass"
+        ]
+      },
+      "status": "available",
+      "title": "Keep the glass bottle intact",
+      "text": "Empty the bottle and keep it separate from broken glass. Check whether your collector accepts this kind of glass bottle and whether its cap should be removed."
+    },
+    {
+      "id": "bottles-material-unknown",
+      "when": {
+        "itemIds": [
+          "bottles"
+        ],
+        "noMaterial": true
+      },
+      "status": "need_more_information",
+      "title": "Choose the bottle's material",
+      "text": "Select plastic, glass, or another known material to get a better collection step. Keep the bottle empty and contained while checking its prior contents."
+    },
+    {
+      "id": "food-containers-contaminated",
+      "when": {
+        "itemIds": [
+          "food-containers",
+          "plastic-food-container",
+          "disposable-food-containers"
+        ],
+        "condition": [
+          "contaminated"
+        ]
+      },
+      "status": "available",
+      "title": "Remove food from the container",
+      "text": "Empty the container if safe. If it can be cleaned safely, identify its material and check local collection rules. While dirty, keep it out of clean recyclables and follow local disposal instructions.",
+      "priority": 60
+    },
+    {
+      "id": "boxes-cardboard-contaminated",
+      "when": {
+        "itemIds": [
+          "boxes",
+          "cardboard-box",
+          "cardboard-boxes"
+        ],
+        "materialIds": [
+          "cardboard"
+        ],
+        "condition": [
+          "contaminated"
+        ]
+      },
+      "status": "available",
+      "title": "Separate the soiled cardboard box",
+      "text": "Keep dirty sections out of clean cardboard recycling. Save clean, dry sections only if your collector accepts them. Follow local instructions for the dirty remainder.",
+      "priority": 60
+    },
+    {
+      "id": "boxes-cardboard-clean",
+      "when": {
+        "itemIds": [
+          "boxes",
+          "cardboard-box",
+          "cardboard-boxes"
+        ],
+        "materialIds": [
+          "cardboard"
+        ]
+      },
+      "status": "available",
+      "title": "Flatten a clean cardboard box",
+      "text": "Keep the box dry and flatten it if your collector asks. Check local collection rules for tape, coatings, and attached parts."
+    },
+    {
+      "id": "clothing-contaminated",
+      "when": {
+        "itemIds": [
+          "clothing"
+        ],
+        "condition": [
+          "contaminated"
+        ]
+      },
+      "status": "available",
+      "title": "Keep soiled clothing out of clean textile collection",
+      "text": "Wash the clothing if safe and practical. Offer it for reuse or textile collection only when clean and accepted; otherwise follow your local service's disposal instructions.",
+      "priority": 60
+    },
+    {
+      "id": "clothing-damaged",
+      "when": {
+        "itemIds": [
+          "clothing"
+        ],
+        "condition": [
+          "damaged"
+        ]
+      },
+      "status": "available",
+      "title": "Check textile collection for damaged clothing",
+      "text": "Keep damaged clothing clean and dry. Ask whether your local textile collector accepts worn fabric for recycling; if it does not, follow the local nonrecyclable waste route."
+    },
+    {
+      "id": "furniture-damaged",
+      "when": {
+        "itemIds": [
+          "furniture",
+          "chairs",
+          "tables",
+          "shelves"
+        ],
+        "condition": [
+          "damaged"
+        ]
+      },
+      "status": "available",
+      "title": "Check bulky-item collection",
+      "text": "Do not leave a broken item at an ordinary recycling point. Identify its main materials and ask your local service about repair, parts recovery, or bulky-item collection. Keep sharp or unstable parts contained."
+    },
+    {
+      "id": "paper-cardboard-contaminated",
+      "when": {
+        "materialIds": [
+          "paper",
+          "cardboard"
+        ],
+        "condition": [
+          "contaminated"
+        ]
+      },
+      "status": "available",
+      "title": "Keep dirty paper separate",
+      "text": "Keep dirty paper or cardboard out of clean-paper recycling. Follow your local collector's disposal instructions for the soiled material.",
+      "priority": 50
+    },
+    {
+      "id": "damaged-glass",
+      "priority": 90,
+      "when": {
+        "materialIds": [
+          "glass"
+        ],
+        "condition": [
+          "damaged"
+        ]
+      },
+      "status": "available",
+      "title": "Contain broken glass safely",
+      "text": "Protect anyone handling sharp pieces. Keep broken glass separate from intact bottles and ask your local collector for its broken-glass route; do not assume bottle collection accepts it."
+    },
+    {
+      "id": "damaged-ceramic",
+      "priority": 90,
+      "when": {
+        "materialIds": [
+          "ceramic"
+        ],
+        "condition": [
+          "damaged"
+        ]
+      },
+      "status": "available",
+      "title": "Contain broken ceramic pieces",
+      "text": "Wrap or contain sharp pieces safely. Do not mix ceramics with bottle-glass recycling; ask your local collector for the correct disposal route."
+    },
+    {
+      "id": "plastic-contaminated",
+      "when": {
+        "materialIds": [
+          "plastic"
+        ],
+        "condition": [
+          "contaminated"
+        ]
+      },
+      "status": "available",
+      "title": "Keep dirty plastic separate",
+      "text": "Clean the item if safe and practical, then check whether your local collector accepts that type of plastic. If it remains dirty, keep it out of clean recycling and follow local disposal instructions.",
+      "priority": 50
+    },
+    {
+      "id": "other-contaminated",
+      "when": {
+        "condition": [
+          "contaminated"
+        ]
+      },
+      "status": "available",
+      "title": "Keep the dirty item out of clean recycling",
+      "text": "Because you marked this item contaminated, do not put it with clean recyclables. Identify its material and follow your local service's disposal route. If it has oil or chemical residue, select that property for safer handling advice.",
+      "priority": 40
+    },
+    {
+      "id": "clean-paper",
+      "when": {
+        "materialIds": [
+          "paper"
+        ]
+      },
+      "status": "available",
+      "title": "Keep clean paper dry",
+      "text": "Keep the item dry and separate from food waste. Check whether your local paper collection accepts this specific paper product, especially if it has a coating or mixed parts."
+    },
+    {
+      "id": "clean-cardboard",
+      "when": {
+        "materialIds": [
+          "cardboard"
+        ]
+      },
+      "status": "available",
+      "title": "Keep clean cardboard dry",
+      "text": "Remove loose food or debris and keep the cardboard dry. Flatten it if your collector asks, and check for coatings or attached materials before collection."
+    },
+    {
+      "id": "clean-plastic",
+      "when": {
+        "materialIds": [
+          "plastic"
+        ]
+      },
+      "status": "available",
+      "title": "Check this plastic type",
+      "text": "Keep the item empty and dry. Put it in local plastic collection only if your collector accepts this kind of plastic item."
+    },
+    {
+      "id": "clean-glass",
+      "when": {
+        "materialIds": [
+          "glass"
+        ]
+      },
+      "status": "available",
+      "title": "Keep glass intact and separate",
+      "text": "If intact, keep the item apart from broken pieces. Check whether your collector accepts this form of glass; windows, mirrors, cookware, and containers can have different routes."
+    },
+    {
+      "id": "clean-metal",
+      "when": {
+        "materialIds": [
+          "metal",
+          "iron-steel",
+          "aluminium",
+          "copper",
+          "brass"
+        ]
+      },
+      "status": "available",
+      "title": "Check collection for this metal item",
+      "text": "Keep the item free of food or chemical residue and identify the metal if possible. Ask your local collector which sizes and attached materials it accepts."
+    }
+  ]
+}

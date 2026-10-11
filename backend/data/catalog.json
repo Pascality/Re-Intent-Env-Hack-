@@ -1,0 +1,3283 @@
+{
+  "labels": [
+    {
+      "id": "plastic",
+      "label": "Plastic",
+      "group": "material",
+      "kind": "raw",
+      "synonyms": [
+        "plastic material"
+      ]
+    },
+    {
+      "id": "paper",
+      "label": "Paper",
+      "group": "material",
+      "kind": "raw",
+      "synonyms": [
+        "paper material"
+      ]
+    },
+    {
+      "id": "cardboard",
+      "label": "Cardboard",
+      "group": "material",
+      "kind": "raw",
+      "synonyms": [
+        "corrugated cardboard"
+      ]
+    },
+    {
+      "id": "glass",
+      "label": "Glass",
+      "group": "material",
+      "kind": "raw",
+      "synonyms": [
+        "glass material"
+      ]
+    },
+    {
+      "id": "metal",
+      "label": "Metal (type unknown)",
+      "group": "material",
+      "kind": "raw",
+      "synonyms": [
+        "metal",
+        "metal material"
+      ]
+    },
+    {
+      "id": "iron-steel",
+      "label": "Iron or steel",
+      "group": "material",
+      "kind": "raw",
+      "synonyms": [
+        "iron",
+        "steel",
+        "ferrous metal"
+      ]
+    },
+    {
+      "id": "aluminium",
+      "label": "Aluminium",
+      "group": "material",
+      "kind": "raw",
+      "synonyms": [
+        "aluminum"
+      ]
+    },
+    {
+      "id": "textile",
+      "label": "Fabric or textile",
+      "group": "material",
+      "kind": "raw",
+      "synonyms": [
+        "fabric",
+        "cloth"
+      ]
+    },
+    {
+      "id": "wood",
+      "label": "Wood",
+      "group": "material",
+      "kind": "raw",
+      "synonyms": [
+        "timber"
+      ]
+    },
+    {
+      "id": "rubber",
+      "label": "Rubber",
+      "group": "material",
+      "kind": "raw",
+      "synonyms": [
+        "rubber material"
+      ]
+    },
+    {
+      "id": "ceramic",
+      "label": "Ceramic",
+      "group": "material",
+      "kind": "raw",
+      "synonyms": [
+        "pottery",
+        "porcelain"
+      ]
+    },
+    {
+      "id": "leather",
+      "label": "Leather",
+      "group": "material",
+      "kind": "raw",
+      "synonyms": [
+        "leather material"
+      ]
+    },
+    {
+      "id": "electronics",
+      "label": "Electronics",
+      "group": "material",
+      "kind": "waste_stream",
+      "synonyms": [
+        "electronic waste",
+        "e-waste"
+      ]
+    },
+    {
+      "id": "organic",
+      "label": "Organic waste",
+      "group": "material",
+      "kind": "waste_stream",
+      "synonyms": [
+        "food waste",
+        "biowaste"
+      ]
+    },
+    {
+      "id": "biodegradable",
+      "label": "Biodegradable",
+      "group": "property",
+      "synonyms": [
+        "biodegrades"
+      ]
+    },
+    {
+      "id": "non-biodegradable",
+      "label": "Non-biodegradable",
+      "group": "property",
+      "synonyms": [
+        "does not biodegrade"
+      ]
+    },
+    {
+      "id": "compostable",
+      "label": "Labeled compostable",
+      "group": "property",
+      "synonyms": [
+        "compostable packaging",
+        "certified compostable"
+      ]
+    },
+    {
+      "id": "hazardous",
+      "label": "Potentially hazardous",
+      "group": "property",
+      "synonyms": [
+        "hazardous waste"
+      ]
+    },
+    {
+      "id": "residue",
+      "label": "Contains oil or chemical residue",
+      "group": "property",
+      "synonyms": [
+        "oil residue",
+        "chemical residue",
+        "not empty"
+      ]
+    },
+    {
+      "id": "container",
+      "label": "Container",
+      "group": "item",
+      "category": "packaging",
+      "synonyms": [
+        "canister",
+        "bottle",
+        "jar",
+        "food jar"
+      ],
+      "donationSuitability": "uncertain",
+      "allowMaterialAreaGuidance": true
+    },
+    {
+      "id": "oil-container",
+      "label": "Oil container",
+      "group": "item",
+      "category": "packaging",
+      "parentId": "container",
+      "synonyms": [
+        "oil canister",
+        "plastic oil bottle"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "plastic-bottle",
+      "label": "Plastic bottle",
+      "group": "item",
+      "category": "plastic-items",
+      "parentId": "container",
+      "synonyms": [
+        "plastic drink bottle",
+        "water bottle"
+      ],
+      "materialIds": [
+        "plastic"
+      ],
+      "allowMaterialAreaGuidance": true,
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "glass-bottle",
+      "label": "Glass bottle or jar",
+      "group": "item",
+      "category": "glass-items",
+      "parentId": "container",
+      "synonyms": [
+        "glass jar",
+        "glass bottle"
+      ],
+      "materialIds": [
+        "glass"
+      ],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "metal-can",
+      "label": "Metal food or drink can",
+      "group": "item",
+      "category": "metal-items",
+      "parentId": "container",
+      "synonyms": [
+        "tin can",
+        "aluminium can",
+        "steel can"
+      ],
+      "materialIds": [
+        "metal"
+      ],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "cardboard-box",
+      "label": "Cardboard box",
+      "group": "item",
+      "category": "paper-cardboard",
+      "synonyms": [
+        "shipping box",
+        "carton box"
+      ],
+      "materialIds": [
+        "cardboard"
+      ],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "paper-bag",
+      "label": "Paper bag",
+      "group": "item",
+      "category": "paper-cardboard",
+      "synonyms": [
+        "kraft bag"
+      ],
+      "materialIds": [
+        "paper"
+      ],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "plastic-food-container",
+      "label": "Plastic food container",
+      "group": "item",
+      "category": "plastic-items",
+      "parentId": "container",
+      "synonyms": [
+        "takeaway container",
+        "plastic tub"
+      ],
+      "materialIds": [
+        "plastic"
+      ],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "plastic-film",
+      "label": "Plastic wrapper or film",
+      "group": "item",
+      "category": "plastic-items",
+      "synonyms": [
+        "plastic bag",
+        "cling film",
+        "packet wrapper"
+      ],
+      "materialIds": [
+        "plastic"
+      ],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "television",
+      "label": "Television",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [
+        "TV",
+        "old television"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "air-conditioner",
+      "label": "Air conditioner",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [
+        "AC",
+        "air conditioning unit"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "mobile-phone",
+      "label": "Mobile phone",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [
+        "smartphone",
+        "cell phone"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "laptop",
+      "label": "Laptop or computer",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [
+        "computer",
+        "desktop PC"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "computer-mouse",
+      "label": "Computer mouse",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [
+        "wireless mouse",
+        "USB mouse",
+        "Bluetooth mouse"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "charger-cable",
+      "label": "Charger or cable",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [
+        "USB cable",
+        "power adapter",
+        "phone charger"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "refrigerator",
+      "label": "Refrigerator",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [
+        "fridge",
+        "freezer"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "washing-machine",
+      "label": "Washing machine",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [
+        "washer"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "small-appliance",
+      "label": "Small electrical appliance",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "clothing",
+      "label": "Clothing",
+      "group": "item",
+      "category": "clothing-textiles",
+      "synonyms": [
+        "clothes",
+        "garment",
+        "Woollen Clothing"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "shoes",
+      "label": "Shoes",
+      "group": "item",
+      "category": "clothing-textiles",
+      "synonyms": [
+        "footwear",
+        "sandals"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "bag",
+      "label": "Bag or backpack",
+      "group": "item",
+      "category": "clothing-textiles",
+      "synonyms": [
+        "handbag",
+        "backpack",
+        "school bag"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "bedding",
+      "label": "Bedsheet or towel",
+      "group": "item",
+      "category": "clothing-textiles",
+      "synonyms": [
+        "bed linen",
+        "towel",
+        "bedsheet"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "books",
+      "label": "Books",
+      "group": "item",
+      "category": "paper-cardboard",
+      "synonyms": [
+        "textbooks",
+        "novels"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "furniture",
+      "label": "Furniture",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [
+        "shelf",
+        "Metal Furniture"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": true
+    },
+    {
+      "id": "toys",
+      "label": "Toys",
+      "group": "item",
+      "category": "toys-children",
+      "synonyms": [
+        "toy",
+        "game",
+        "Plastic Toys"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": true
+    },
+    {
+      "id": "food-scraps",
+      "label": "Food scraps",
+      "group": "item",
+      "category": "organic",
+      "synonyms": [
+        "leftover food",
+        "kitchen scraps"
+      ],
+      "allowMaterialAreaGuidance": false,
+      "donationSuitability": "not_suitable"
+    },
+    {
+      "id": "fruit-vegetable-peels",
+      "label": "Fruit or vegetable peels",
+      "group": "item",
+      "category": "organic",
+      "synonyms": [
+        "vegetable scraps",
+        "fruit peels"
+      ],
+      "allowMaterialAreaGuidance": false,
+      "donationSuitability": "not_suitable"
+    },
+    {
+      "id": "garden-trimmings",
+      "label": "Garden leaves or trimmings",
+      "group": "item",
+      "category": "organic",
+      "synonyms": [
+        "yard waste",
+        "leaves",
+        "grass clippings"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "keyboard",
+      "label": "Keyboard",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "tablet",
+      "label": "Tablet",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "monitor",
+      "label": "Monitor",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "printer",
+      "label": "Printer",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "webcam",
+      "label": "Webcam",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "headphones",
+      "label": "Headphones",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "earphones",
+      "label": "Earphones",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "speakers",
+      "label": "Speakers",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "chargers",
+      "label": "Chargers",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "power-banks",
+      "label": "Power Banks",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "wi-fi-routers",
+      "label": "Wi-Fi Routers",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "remote-controls",
+      "label": "Remote Controls",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "hard-drives",
+      "label": "Hard Drives",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "usb-drives",
+      "label": "USB Drives",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "game-controllers",
+      "label": "Game Controllers",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "cameras",
+      "label": "Cameras",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "smartwatches",
+      "label": "Smartwatches",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "calculators",
+      "label": "Calculators",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "electric-toothbrushes",
+      "label": "Electric Toothbrushes",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "hair-dryers",
+      "label": "Hair Dryers",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "electric-shavers",
+      "label": "Electric Shavers",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "set-top-boxes",
+      "label": "Set-Top Boxes",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "dvd-players",
+      "label": "DVD Players",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "irons",
+      "label": "Irons",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "shampoo-bottles",
+      "label": "Shampoo Bottles",
+      "group": "item",
+      "category": "packaging",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "detergent-bottles",
+      "label": "Detergent Bottles",
+      "group": "item",
+      "category": "packaging",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "water-cans",
+      "label": "Water Cans",
+      "group": "item",
+      "category": "packaging",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "food-containers",
+      "label": "Food Containers",
+      "group": "item",
+      "category": "packaging",
+      "synonyms": [
+        "takeaway food box",
+        "food storage tub",
+        "ice cream tub",
+        "Plastic food container",
+        "takeaway container",
+        "plastic tub"
+      ],
+      "donationSuitability": "uncertain",
+      "allowMaterialAreaGuidance": true
+    },
+    {
+      "id": "plastic-buckets",
+      "label": "Plastic Buckets",
+      "group": "item",
+      "category": "plastic-items",
+      "synonyms": [],
+      "materialIds": [
+        "plastic"
+      ],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "plastic-mugs",
+      "label": "Plastic Mugs",
+      "group": "item",
+      "category": "plastic-items",
+      "synonyms": [],
+      "materialIds": [
+        "plastic"
+      ],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "storage-boxes",
+      "label": "Storage Boxes",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "reusable-food-containers",
+      "label": "Reusable Food Containers",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "plastic-hangers",
+      "label": "Plastic Hangers",
+      "group": "item",
+      "category": "plastic-items",
+      "synonyms": [],
+      "materialIds": [
+        "plastic"
+      ],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "broken-plastic-chairs",
+      "label": "Broken Plastic Chairs",
+      "group": "item",
+      "category": "plastic-items",
+      "synonyms": [],
+      "materialIds": [
+        "plastic"
+      ],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "plastic-crates",
+      "label": "Plastic Crates",
+      "group": "item",
+      "category": "plastic-items",
+      "synonyms": [],
+      "materialIds": [
+        "plastic"
+      ],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "packaging-trays",
+      "label": "Packaging Trays",
+      "group": "item",
+      "category": "packaging",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "disposable-food-containers",
+      "label": "Disposable Food Containers",
+      "group": "item",
+      "category": "packaging",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "plastic-bottle-caps",
+      "label": "Plastic Bottle Caps",
+      "group": "item",
+      "category": "plastic-items",
+      "synonyms": [],
+      "materialIds": [
+        "plastic"
+      ],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "pvc-pipes",
+      "label": "PVC Pipes",
+      "group": "item",
+      "category": "plastic-items",
+      "synonyms": [],
+      "materialIds": [
+        "plastic"
+      ],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "newspapers",
+      "label": "Newspapers",
+      "group": "item",
+      "category": "paper-cardboard",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "magazines",
+      "label": "Magazines",
+      "group": "item",
+      "category": "paper-cardboard",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "cardboard-boxes",
+      "label": "Cardboard Boxes",
+      "group": "item",
+      "category": "paper-cardboard",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "packaging-cartons",
+      "label": "Packaging Cartons",
+      "group": "item",
+      "category": "paper-cardboard",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "office-documents",
+      "label": "Office Documents",
+      "group": "item",
+      "category": "paper-cardboard",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "paper-files",
+      "label": "Paper Files",
+      "group": "item",
+      "category": "paper-cardboard",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "egg-cartons",
+      "label": "Egg Cartons",
+      "group": "item",
+      "category": "paper-cardboard",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "greeting-cards",
+      "label": "Greeting Cards",
+      "group": "item",
+      "category": "paper-cardboard",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "envelopes",
+      "label": "Envelopes",
+      "group": "item",
+      "category": "paper-cardboard",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "calendars",
+      "label": "Calendars",
+      "group": "item",
+      "category": "paper-cardboard",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "wrapping-paper",
+      "label": "Wrapping Paper",
+      "group": "item",
+      "category": "paper-cardboard",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "perfume-bottles",
+      "label": "Perfume Bottles",
+      "group": "item",
+      "category": "packaging",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "medicine-bottles",
+      "label": "Medicine Bottles",
+      "group": "item",
+      "category": "packaging",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "glass-tumblers",
+      "label": "Glass Tumblers",
+      "group": "item",
+      "category": "glass-items",
+      "synonyms": [],
+      "materialIds": [
+        "glass"
+      ],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "window-glass",
+      "label": "Window Glass",
+      "group": "item",
+      "category": "glass-items",
+      "synonyms": [],
+      "materialIds": [
+        "glass"
+      ],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "mirrors",
+      "label": "Mirrors",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "cosmetic-containers",
+      "label": "Cosmetic Containers",
+      "group": "item",
+      "category": "packaging",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "glass-cookware",
+      "label": "Glass Cookware",
+      "group": "item",
+      "category": "glass-items",
+      "synonyms": [],
+      "materialIds": [
+        "glass"
+      ],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "metal-bottles",
+      "label": "Metal Bottles",
+      "group": "item",
+      "category": "metal-items",
+      "synonyms": [],
+      "materialIds": [
+        "metal"
+      ],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "copper-wires",
+      "label": "Copper Wires",
+      "group": "item",
+      "category": "metal-items",
+      "synonyms": [],
+      "materialIds": [
+        "metal"
+      ],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "aluminum-foil",
+      "label": "Aluminum Foil",
+      "group": "item",
+      "category": "metal-items",
+      "synonyms": [],
+      "materialIds": [
+        "metal"
+      ],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "old-utensils",
+      "label": "Old Utensils",
+      "group": "item",
+      "category": "food-kitchen",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "iron-tools",
+      "label": "Iron Tools",
+      "group": "item",
+      "category": "metal-items",
+      "synonyms": [],
+      "materialIds": [
+        "metal"
+      ],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "metal-shelves",
+      "label": "Metal Shelves",
+      "group": "item",
+      "category": "metal-items",
+      "synonyms": [],
+      "materialIds": [
+        "metal"
+      ],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "broken-bicycles",
+      "label": "Broken Bicycles",
+      "group": "item",
+      "category": "vehicles-mechanical",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "old-pipes",
+      "label": "Old Pipes",
+      "group": "item",
+      "category": "metal-items",
+      "synonyms": [],
+      "materialIds": [
+        "metal"
+      ],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "screws-and-nails",
+      "label": "Screws And Nails",
+      "group": "item",
+      "category": "construction-repair",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "metal-bottle-caps",
+      "label": "Metal Bottle Caps",
+      "group": "item",
+      "category": "metal-items",
+      "synonyms": [],
+      "materialIds": [
+        "metal"
+      ],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "metal-furniture",
+      "label": "Metal Furniture",
+      "group": "item",
+      "category": "metal-items",
+      "synonyms": [],
+      "materialIds": [
+        "metal"
+      ],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "scrap-iron",
+      "label": "Scrap Iron",
+      "group": "item",
+      "category": "metal-items",
+      "synonyms": [],
+      "materialIds": [
+        "metal"
+      ],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "brass-items",
+      "label": "Brass Items",
+      "group": "item",
+      "category": "metal-items",
+      "synonyms": [],
+      "materialIds": [
+        "metal"
+      ],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "aluminum-cookware",
+      "label": "Aluminum Cookware",
+      "group": "item",
+      "category": "metal-items",
+      "synonyms": [],
+      "materialIds": [
+        "metal"
+      ],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "shirts",
+      "label": "Shirts",
+      "group": "item",
+      "category": "clothing-textiles",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "t-shirts",
+      "label": "T-Shirts",
+      "group": "item",
+      "category": "clothing-textiles",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "jeans",
+      "label": "Jeans",
+      "group": "item",
+      "category": "clothing-textiles",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "trousers",
+      "label": "Trousers",
+      "group": "item",
+      "category": "clothing-textiles",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "jackets",
+      "label": "Jackets",
+      "group": "item",
+      "category": "clothing-textiles",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "sweaters",
+      "label": "Sweaters",
+      "group": "item",
+      "category": "clothing-textiles",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "sarees",
+      "label": "Sarees",
+      "group": "item",
+      "category": "clothing-textiles",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "kurtas",
+      "label": "Kurtas",
+      "group": "item",
+      "category": "clothing-textiles",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "school-uniforms",
+      "label": "School Uniforms",
+      "group": "item",
+      "category": "clothing-textiles",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "blankets",
+      "label": "Blankets",
+      "group": "item",
+      "category": "clothing-textiles",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "curtains",
+      "label": "Curtains",
+      "group": "item",
+      "category": "clothing-textiles",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "belts",
+      "label": "Belts",
+      "group": "item",
+      "category": "clothing-textiles",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "caps",
+      "label": "Caps",
+      "group": "item",
+      "category": "clothing-textiles",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "socks",
+      "label": "Socks",
+      "group": "item",
+      "category": "clothing-textiles",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "woollen-clothing",
+      "label": "Woollen Clothing",
+      "group": "item",
+      "category": "clothing-textiles",
+      "synonyms": [],
+      "materialIds": [
+        "textile"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "hidden": true
+    },
+    {
+      "id": "fabric-scraps",
+      "label": "Fabric Scraps",
+      "group": "item",
+      "category": "clothing-textiles",
+      "synonyms": [],
+      "materialIds": [
+        "textile"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "hidden": true
+    },
+    {
+      "id": "carpets",
+      "label": "Carpets",
+      "group": "item",
+      "category": "clothing-textiles",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "rugs",
+      "label": "Rugs",
+      "group": "item",
+      "category": "clothing-textiles",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "cupboards",
+      "label": "Cupboards",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "bookshelves",
+      "label": "Bookshelves",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "beds",
+      "label": "Beds",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "mattresses",
+      "label": "Mattresses",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "sofas",
+      "label": "Sofas",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "study-desks",
+      "label": "Study Desks",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "lamps",
+      "label": "Lamps",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "kitchen-utensils",
+      "label": "Kitchen Utensils",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "cookware",
+      "label": "Cookware",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [
+        "Glass Cookware",
+        "Aluminum Cookware"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "crockery",
+      "label": "Crockery",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "baskets",
+      "label": "Baskets",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "storage-containers",
+      "label": "Storage Containers",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [
+        "Steel Containers"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "shoe-racks",
+      "label": "Shoe Racks",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "dressing-tables",
+      "label": "Dressing Tables",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "side-tables",
+      "label": "Side Tables",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "ironing-boards",
+      "label": "Ironing Boards",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "plastic-toys",
+      "label": "Plastic Toys",
+      "group": "item",
+      "category": "toys-children",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "hidden": true
+    },
+    {
+      "id": "board-games",
+      "label": "Board Games",
+      "group": "item",
+      "category": "toys-children",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "puzzles",
+      "label": "Puzzles",
+      "group": "item",
+      "category": "toys-children",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "stuffed-toys",
+      "label": "Stuffed Toys",
+      "group": "item",
+      "category": "toys-children",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "tricycles",
+      "label": "Tricycles",
+      "group": "item",
+      "category": "toys-children",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "crayons",
+      "label": "Crayons",
+      "group": "item",
+      "category": "toys-children",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "drawing-books",
+      "label": "Drawing Books",
+      "group": "item",
+      "category": "toys-children",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "sports-equipment",
+      "label": "Sports Equipment",
+      "group": "item",
+      "category": "toys-children",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "baby-strollers",
+      "label": "Baby Strollers",
+      "group": "item",
+      "category": "toys-children",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "baby-chairs",
+      "label": "Baby Chairs",
+      "group": "item",
+      "category": "toys-children",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "building-blocks",
+      "label": "Building Blocks",
+      "group": "item",
+      "category": "toys-children",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "dolls",
+      "label": "Dolls",
+      "group": "item",
+      "category": "toys-children",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "toy-vehicles",
+      "label": "Toy Vehicles",
+      "group": "item",
+      "category": "toys-children",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "skipping-ropes",
+      "label": "Skipping Ropes",
+      "group": "item",
+      "category": "toys-children",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "bicycles",
+      "label": "Bicycles",
+      "group": "item",
+      "category": "vehicles-mechanical",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "scooters",
+      "label": "Scooters",
+      "group": "item",
+      "category": "vehicles-mechanical",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "car-parts",
+      "label": "Car Parts",
+      "group": "item",
+      "category": "vehicles-mechanical",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "motorcycle-parts",
+      "label": "Motorcycle Parts",
+      "group": "item",
+      "category": "vehicles-mechanical",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "tires",
+      "label": "Tires",
+      "group": "item",
+      "category": "vehicles-mechanical",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "bicycle-tires",
+      "label": "Bicycle Tires",
+      "group": "item",
+      "category": "vehicles-mechanical",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "helmets",
+      "label": "Helmets",
+      "group": "item",
+      "category": "vehicles-mechanical",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "engine-components",
+      "label": "Engine Components",
+      "group": "item",
+      "category": "vehicles-mechanical",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "tools",
+      "label": "Tools",
+      "group": "item",
+      "category": "vehicles-mechanical",
+      "synonyms": [
+        "Iron Tools"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": true
+    },
+    {
+      "id": "spare-parts",
+      "label": "Spare Parts",
+      "group": "item",
+      "category": "vehicles-mechanical",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "vehicle-batteries",
+      "label": "Vehicle Batteries",
+      "group": "item",
+      "category": "special-handling",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "bicycle-chains",
+      "label": "Bicycle Chains",
+      "group": "item",
+      "category": "vehicles-mechanical",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "bicycle-frames",
+      "label": "Bicycle Frames",
+      "group": "item",
+      "category": "vehicles-mechanical",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "skateboards",
+      "label": "Skateboards",
+      "group": "item",
+      "category": "vehicles-mechanical",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "roller-skates",
+      "label": "Roller Skates",
+      "group": "item",
+      "category": "vehicles-mechanical",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "wooden-planks",
+      "label": "Wooden Planks",
+      "group": "item",
+      "category": "construction-repair",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "tiles",
+      "label": "Tiles",
+      "group": "item",
+      "category": "construction-repair",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "bricks",
+      "label": "Bricks",
+      "group": "item",
+      "category": "construction-repair",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "pipes",
+      "label": "Pipes",
+      "group": "item",
+      "category": "construction-repair",
+      "synonyms": [
+        "PVC Pipes",
+        "Old Pipes"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": true
+    },
+    {
+      "id": "electrical-switches",
+      "label": "Electrical Switches",
+      "group": "item",
+      "category": "construction-repair",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "electrical-wires",
+      "label": "Electrical Wires",
+      "group": "item",
+      "category": "construction-repair",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "paint-buckets",
+      "label": "Paint Buckets",
+      "group": "item",
+      "category": "construction-repair",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "metal-rods",
+      "label": "Metal Rods",
+      "group": "item",
+      "category": "construction-repair",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "cement-bags",
+      "label": "Cement Bags",
+      "group": "item",
+      "category": "construction-repair",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "doors",
+      "label": "Doors",
+      "group": "item",
+      "category": "construction-repair",
+      "synonyms": [
+        "Wooden Doors"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": true
+    },
+    {
+      "id": "windows",
+      "label": "Windows",
+      "group": "item",
+      "category": "construction-repair",
+      "synonyms": [
+        "Window Glass"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "sanitary-fixtures",
+      "label": "Sanitary Fixtures",
+      "group": "item",
+      "category": "construction-repair",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "wooden-doors",
+      "label": "Wooden Doors",
+      "group": "item",
+      "category": "construction-repair",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "cabinet-hardware",
+      "label": "Cabinet Hardware",
+      "group": "item",
+      "category": "construction-repair",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "floor-tiles",
+      "label": "Floor Tiles",
+      "group": "item",
+      "category": "construction-repair",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "roofing-materials",
+      "label": "Roofing Materials",
+      "group": "item",
+      "category": "construction-repair",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "pens",
+      "label": "Pens",
+      "group": "item",
+      "category": "office-school",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "pencils",
+      "label": "Pencils",
+      "group": "item",
+      "category": "office-school",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "erasers",
+      "label": "Erasers",
+      "group": "item",
+      "category": "office-school",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "rulers",
+      "label": "Rulers",
+      "group": "item",
+      "category": "office-school",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "pencil-boxes",
+      "label": "Pencil Boxes",
+      "group": "item",
+      "category": "office-school",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "office-folders",
+      "label": "Office Folders",
+      "group": "item",
+      "category": "office-school",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "files-and-binders",
+      "label": "Files And Binders",
+      "group": "item",
+      "category": "office-school",
+      "synonyms": [
+        "Paper Files"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "staplers",
+      "label": "Staplers",
+      "group": "item",
+      "category": "office-school",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "whiteboards",
+      "label": "Whiteboards",
+      "group": "item",
+      "category": "office-school",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "art-supplies",
+      "label": "Art Supplies",
+      "group": "item",
+      "category": "office-school",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "lunch-boxes",
+      "label": "Lunch Boxes",
+      "group": "item",
+      "category": "food-kitchen",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "steel-containers",
+      "label": "Steel Containers",
+      "group": "item",
+      "category": "food-kitchen",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "hidden": true
+    },
+    {
+      "id": "cooking-pots",
+      "label": "Cooking Pots",
+      "group": "item",
+      "category": "food-kitchen",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "pans",
+      "label": "Pans",
+      "group": "item",
+      "category": "food-kitchen",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "pressure-cookers",
+      "label": "Pressure Cookers",
+      "group": "item",
+      "category": "food-kitchen",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "cutlery",
+      "label": "Cutlery",
+      "group": "item",
+      "category": "food-kitchen",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "plates",
+      "label": "Plates",
+      "group": "item",
+      "category": "food-kitchen",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "cups",
+      "label": "Cups",
+      "group": "item",
+      "category": "food-kitchen",
+      "synonyms": [
+        "paper cup",
+        "paper cups",
+        "mug",
+        "yoghurt cup",
+        "dessert cup",
+        "Plastic Mugs",
+        "Glass Tumblers"
+      ],
+      "donationSuitability": "uncertain",
+      "allowMaterialAreaGuidance": true
+    },
+    {
+      "id": "spice-jars",
+      "label": "Spice Jars",
+      "group": "item",
+      "category": "food-kitchen",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "coffee-makers",
+      "label": "Coffee Makers",
+      "group": "item",
+      "category": "food-kitchen",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "blenders",
+      "label": "Blenders",
+      "group": "item",
+      "category": "food-kitchen",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "juicers",
+      "label": "Juicers",
+      "group": "item",
+      "category": "food-kitchen",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "batteries",
+      "label": "Batteries",
+      "group": "item",
+      "category": "special-handling",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "fluorescent-lamps",
+      "label": "Fluorescent Lamps",
+      "group": "item",
+      "category": "special-handling",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "led-bulbs",
+      "label": "LED Bulbs",
+      "group": "item",
+      "category": "special-handling",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "paint-containers",
+      "label": "Paint Containers",
+      "group": "item",
+      "category": "special-handling",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "chemical-containers",
+      "label": "Chemical Containers",
+      "group": "item",
+      "category": "special-handling",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "medical-equipment",
+      "label": "Medical Equipment",
+      "group": "item",
+      "category": "special-handling",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "medicines",
+      "label": "Medicines",
+      "group": "item",
+      "category": "special-handling",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "thermometers",
+      "label": "Thermometers",
+      "group": "item",
+      "category": "special-handling",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "ink-cartridges",
+      "label": "Ink Cartridges",
+      "group": "item",
+      "category": "special-handling",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "toner-cartridges",
+      "label": "Toner Cartridges",
+      "group": "item",
+      "category": "special-handling",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "gas-cylinders",
+      "label": "Gas Cylinders",
+      "group": "item",
+      "category": "special-handling",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "mixed-waste",
+      "label": "Mixed Waste",
+      "group": "material",
+      "synonyms": [
+        "mixed household waste"
+      ],
+      "kind": "waste_stream"
+    },
+    {
+      "id": "unidentified-item",
+      "label": "Unidentified Item",
+      "group": "item",
+      "category": "other",
+      "synonyms": [],
+      "donationSuitability": "uncertain",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "copper",
+      "label": "Copper",
+      "group": "material",
+      "kind": "raw",
+      "synonyms": [
+        "copper material"
+      ]
+    },
+    {
+      "id": "brass",
+      "label": "Brass",
+      "group": "material",
+      "kind": "raw",
+      "synonyms": [
+        "brass material"
+      ]
+    },
+    {
+      "id": "light-bulbs",
+      "label": "Light Bulbs",
+      "group": "item",
+      "category": "special-handling",
+      "synonyms": [],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "microwaves",
+      "label": "Microwaves",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "electric-kettles",
+      "label": "Electric Kettles",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "notebooks",
+      "label": "Notebooks",
+      "group": "item",
+      "category": "paper-cardboard",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "chairs",
+      "label": "Chairs",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [
+        "Broken Plastic Chairs"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": true
+    },
+    {
+      "id": "tables",
+      "label": "Tables",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "fans",
+      "label": "Fans",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "toasters",
+      "label": "Toasters",
+      "group": "item",
+      "category": "food-kitchen",
+      "synonyms": [],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "mailing-bags",
+      "label": "Mailing bags",
+      "group": "item",
+      "category": "packaging",
+      "synonyms": [
+        "courier bags",
+        "shipping bags"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "bubble-wrap",
+      "label": "Bubble wrap",
+      "group": "item",
+      "category": "packaging",
+      "synonyms": [
+        "bubble packaging"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "air-pillows",
+      "label": "Packaging air pillows",
+      "group": "item",
+      "category": "packaging",
+      "synonyms": [
+        "air-filled packaging"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "padded-envelopes",
+      "label": "Padded envelopes",
+      "group": "item",
+      "category": "packaging",
+      "synonyms": [
+        "bubble mailers"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "packing-foam",
+      "label": "Packing foam",
+      "group": "item",
+      "category": "packaging",
+      "synonyms": [
+        "thermocol packaging",
+        "foam packaging"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "receipts",
+      "label": "Receipts",
+      "group": "item",
+      "category": "paper-cardboard",
+      "synonyms": [
+        "shop receipts",
+        "thermal receipts"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "tickets",
+      "label": "Tickets",
+      "group": "item",
+      "category": "paper-cardboard",
+      "synonyms": [
+        "paper tickets"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "loose-paper",
+      "label": "Loose paper",
+      "group": "item",
+      "category": "paper-cardboard",
+      "synonyms": [
+        "worksheets",
+        "printed sheets"
+      ],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "tissues",
+      "label": "Tissues",
+      "group": "item",
+      "category": "paper-cardboard",
+      "synonyms": [
+        "tissue paper",
+        "facial tissues"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "paper-towels",
+      "label": "Paper towels",
+      "group": "item",
+      "category": "paper-cardboard",
+      "synonyms": [
+        "kitchen roll"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "paper-tubes",
+      "label": "Paper tubes",
+      "group": "item",
+      "category": "paper-cardboard",
+      "synonyms": [
+        "cardboard tubes"
+      ],
+      "donationSuitability": "not_suitable",
+      "hidden": true
+    },
+    {
+      "id": "hangers",
+      "label": "Hangers",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [
+        "clothes hangers",
+        "metal hangers",
+        "Plastic Hangers"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": true
+    },
+    {
+      "id": "basins",
+      "label": "Basins",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [
+        "wash basins",
+        "washing basins"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "plant-pots",
+      "label": "Plant pots",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [
+        "flower pots",
+        "planters"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "vases",
+      "label": "Vases",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [
+        "flower vases"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "bowls",
+      "label": "Bowls",
+      "group": "item",
+      "category": "food-kitchen",
+      "synonyms": [
+        "food bowls",
+        "serving bowls"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "toothbrushes",
+      "label": "Toothbrushes",
+      "group": "item",
+      "category": "other",
+      "synonyms": [
+        "manual toothbrush"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "combs",
+      "label": "Combs",
+      "group": "item",
+      "category": "other",
+      "synonyms": [
+        "hair combs"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "markers",
+      "label": "Markers",
+      "group": "item",
+      "category": "office-school",
+      "synonyms": [
+        "marker pens",
+        "felt-tip pens"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "computer-parts",
+      "label": "Computer parts",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [
+        "computer components",
+        "pc parts"
+      ],
+      "donationSuitability": "uncertain",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "circuit-boards",
+      "label": "Circuit boards",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [
+        "printed circuit boards",
+        "pcbs"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "power-adapters",
+      "label": "Power adapters",
+      "group": "item",
+      "category": "electronics",
+      "synonyms": [
+        "plug adapters",
+        "power supplies"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "pillowcases",
+      "label": "Pillowcases",
+      "group": "item",
+      "category": "clothing-textiles",
+      "synonyms": [
+        "pillow covers"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "pillows",
+      "label": "Pillows",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [
+        "bed pillows"
+      ],
+      "donationSuitability": "uncertain",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "cushions",
+      "label": "Cushions",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [
+        "seat cushions"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "mats",
+      "label": "Mats",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [
+        "floor mats",
+        "door mats"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "stools",
+      "label": "Stools",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [
+        "small stools"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "shelves",
+      "label": "Shelves",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [
+        "wall shelves",
+        "Metal Shelves"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": true
+    },
+    {
+      "id": "drawers",
+      "label": "Drawers",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [
+        "drawer units"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "handbags",
+      "label": "Handbags",
+      "group": "item",
+      "category": "clothing-textiles",
+      "synonyms": [
+        "purses"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "slippers",
+      "label": "Slippers",
+      "group": "item",
+      "category": "clothing-textiles",
+      "synonyms": [
+        "flip-flops"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "banners",
+      "label": "Banners",
+      "group": "item",
+      "category": "clothing-textiles",
+      "synonyms": [
+        "event banners",
+        "vinyl banners"
+      ],
+      "donationSuitability": "uncertain",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "eggshells",
+      "label": "Eggshells",
+      "group": "item",
+      "category": "organic",
+      "synonyms": [
+        "egg shells"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "tea-leaves",
+      "label": "Tea leaves",
+      "group": "item",
+      "category": "organic",
+      "synonyms": [
+        "used tea leaves",
+        "tea grounds"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "coffee-grounds",
+      "label": "Coffee grounds",
+      "group": "item",
+      "category": "organic",
+      "synonyms": [
+        "used coffee grounds"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "grass-clippings",
+      "label": "Grass clippings",
+      "group": "item",
+      "category": "organic",
+      "synonyms": [
+        "cut grass"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "flowers",
+      "label": "Flowers",
+      "group": "item",
+      "category": "organic",
+      "synonyms": [
+        "wilted flowers",
+        "flower waste"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "small-branches",
+      "label": "Small branches",
+      "group": "item",
+      "category": "organic",
+      "synonyms": [
+        "twigs",
+        "pruned branches"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "toothpaste-tubes",
+      "label": "Toothpaste tubes",
+      "group": "item",
+      "category": "other",
+      "synonyms": [
+        "empty toothpaste tubes"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "cleaning-cloths",
+      "label": "Cleaning cloths",
+      "group": "item",
+      "category": "clothing-textiles",
+      "synonyms": [
+        "dishcloths",
+        "microfiber cloths"
+      ],
+      "donationSuitability": "uncertain",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "sponges",
+      "label": "Sponges",
+      "group": "item",
+      "category": "food-kitchen",
+      "synonyms": [
+        "dish sponges",
+        "cleaning sponges"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "aerosol-cans",
+      "label": "Aerosol cans",
+      "group": "item",
+      "category": "special-handling",
+      "synonyms": [
+        "spray cans",
+        "pressurised cans"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "sports-balls",
+      "label": "Sports balls",
+      "group": "item",
+      "category": "toys-children",
+      "synonyms": [
+        "football",
+        "basketball"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "umbrellas",
+      "label": "Umbrellas",
+      "group": "item",
+      "category": "other",
+      "synonyms": [
+        "rain umbrellas"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "ropes-and-cords",
+      "label": "Ropes and cords",
+      "group": "item",
+      "category": "other",
+      "synonyms": [
+        "rope",
+        "cord"
+      ],
+      "donationSuitability": "consider_if_usable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "disposable-diapers",
+      "label": "Disposable diapers",
+      "group": "item",
+      "category": "special-handling",
+      "synonyms": [
+        "nappies",
+        "used diapers"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "sanitary-pads",
+      "label": "Sanitary pads",
+      "group": "item",
+      "category": "special-handling",
+      "synonyms": [
+        "menstrual pads",
+        "used sanitary pads"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "face-masks",
+      "label": "Face masks",
+      "group": "item",
+      "category": "special-handling",
+      "synonyms": [
+        "disposable masks",
+        "used masks"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "disposable-razors",
+      "label": "Disposable razors",
+      "group": "item",
+      "category": "special-handling",
+      "synonyms": [
+        "used razors",
+        "razor blades"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "cigarette-butts",
+      "label": "Cigarette butts",
+      "group": "item",
+      "category": "special-handling",
+      "synonyms": [
+        "cigarette filters"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "broken-glass",
+      "label": "Broken glass",
+      "group": "item",
+      "category": "special-handling",
+      "synonyms": [
+        "glass shards",
+        "shattered glass"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false,
+      "hidden": true
+    },
+    {
+      "id": "medicine-blister-packs",
+      "label": "Medicine blister packs",
+      "group": "item",
+      "category": "special-handling",
+      "synonyms": [
+        "pill blister packs"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "used-cooking-oil",
+      "label": "Used cooking oil",
+      "group": "item",
+      "category": "special-handling",
+      "synonyms": [
+        "waste cooking oil"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "food-wrappers",
+      "label": "Food wrappers",
+      "group": "item",
+      "category": "packaging",
+      "synonyms": [
+        "snack wrappers",
+        "biscuit wrappers",
+        "sweet wrappers"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "straws",
+      "label": "Straws",
+      "group": "item",
+      "category": "food-kitchen",
+      "synonyms": [
+        "drinking straws"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "tea-bags",
+      "label": "Tea bags",
+      "group": "item",
+      "category": "organic",
+      "synonyms": [
+        "used tea bags"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "wet-wipes",
+      "label": "Wet wipes",
+      "group": "item",
+      "category": "special-handling",
+      "synonyms": [
+        "baby wipes",
+        "used wipes"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "cotton-swabs",
+      "label": "Cotton swabs",
+      "group": "item",
+      "category": "special-handling",
+      "synonyms": [
+        "cotton buds",
+        "ear buds"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "cotton-pads",
+      "label": "Cotton pads",
+      "group": "item",
+      "category": "special-handling",
+      "synonyms": [
+        "makeup pads"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "disposable-gloves",
+      "label": "Disposable gloves",
+      "group": "item",
+      "category": "special-handling",
+      "synonyms": [
+        "used gloves"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "pet-waste",
+      "label": "Pet waste",
+      "group": "item",
+      "category": "special-handling",
+      "synonyms": [
+        "dog waste",
+        "cat litter"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": false
+    },
+    {
+      "id": "bottles",
+      "label": "Bottles",
+      "group": "item",
+      "category": "packaging",
+      "synonyms": [
+        "Plastic bottle",
+        "plastic drink bottle",
+        "water bottle",
+        "Glass bottle or jar",
+        "glass jar",
+        "glass bottle",
+        "Metal Bottles"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": true
+    },
+    {
+      "id": "cans",
+      "label": "Cans",
+      "group": "item",
+      "category": "packaging",
+      "synonyms": [
+        "Metal food or drink can",
+        "tin can",
+        "aluminium can",
+        "steel can"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": true
+    },
+    {
+      "id": "boxes",
+      "label": "Boxes",
+      "group": "item",
+      "category": "packaging",
+      "synonyms": [
+        "Cardboard box",
+        "shipping box",
+        "carton box",
+        "Cardboard Boxes"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": true
+    },
+    {
+      "id": "bags",
+      "label": "Bags",
+      "group": "item",
+      "category": "packaging",
+      "synonyms": [
+        "Paper bag",
+        "kraft bag"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": true
+    },
+    {
+      "id": "wrappers-and-film",
+      "label": "Wrappers and film",
+      "group": "item",
+      "category": "packaging",
+      "synonyms": [
+        "Plastic wrapper or film",
+        "plastic bag",
+        "cling film",
+        "packet wrapper"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": true
+    },
+    {
+      "id": "buckets",
+      "label": "Buckets",
+      "group": "item",
+      "category": "furniture-household",
+      "synonyms": [
+        "Plastic Buckets"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": true
+    },
+    {
+      "id": "crates",
+      "label": "Crates",
+      "group": "item",
+      "category": "packaging",
+      "synonyms": [
+        "Plastic Crates"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": true
+    },
+    {
+      "id": "bottle-caps",
+      "label": "Bottle caps",
+      "group": "item",
+      "category": "packaging",
+      "synonyms": [
+        "Plastic Bottle Caps",
+        "Metal Bottle Caps"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": true
+    },
+    {
+      "id": "wires",
+      "label": "Wires",
+      "group": "item",
+      "category": "construction-repair",
+      "synonyms": [
+        "Copper Wires"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": true
+    },
+    {
+      "id": "foil",
+      "label": "Foil",
+      "group": "item",
+      "category": "food-kitchen",
+      "synonyms": [
+        "Aluminum Foil"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": true
+    },
+    {
+      "id": "planks",
+      "label": "Planks",
+      "group": "item",
+      "category": "construction-repair",
+      "synonyms": [
+        "Wooden Planks"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": true
+    },
+    {
+      "id": "rods",
+      "label": "Rods",
+      "group": "item",
+      "category": "construction-repair",
+      "synonyms": [
+        "Metal Rods"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": true
+    },
+    {
+      "id": "tubes",
+      "label": "Tubes",
+      "group": "item",
+      "category": "packaging",
+      "synonyms": [
+        "Paper tubes",
+        "cardboard tubes"
+      ],
+      "donationSuitability": "not_suitable",
+      "allowMaterialAreaGuidance": true
+    },
+    {
+      "id": "sharp-or-broken",
+      "label": "Sharp or broken",
+      "group": "property",
+      "synonyms": [
+        "sharp edges",
+        "broken pieces"
+      ]
+    }
+  ]
+}

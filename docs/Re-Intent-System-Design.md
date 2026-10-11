@@ -1,8 +1,8 @@
 # Re-Intent — Product and System Design
 
-**Document status:** Planning baseline  
-**Prepared:** 8 October 2026  
-**Scope:** Product workflow, frontend and backend design, data flow, recommendation logic, photo analysis, hackathon constraints, and MVP workplan.
+- **Document status:** Planning baseline with backend, manual frontend flow, concurrent browser-side MobileNet/YOLO11 suggestions, and local Finch container packaging implemented; photo evaluation is ongoing
+- **Prepared:** 8 October 2026
+- **Scope:** Product workflow, frontend and backend design, data flow, recommendation logic, photo analysis, hackathon constraints, and MVP workplan.
 
 This document consolidates the decisions and proposals discussed so far. It distinguishes the current plan from items that still need validation. It is a design document, not a claim that the system has already been implemented or that image recognition has been proven accurate.
 
@@ -28,10 +28,10 @@ The site is guidance, not a guarantee that a facility or organization will accep
 
 ### Current architecture choices
 
-- Frontend: React + Vite (planned).
-- API: Node.js + Express (planned).
+- Frontend: React + Vite.
+- API: Node.js + Express.
 - Data for the MVP: curated, version-controlled JSON files in the project repository.
-- Photo analysis: prototype an in-browser TensorFlow.js image classifier; treat all predictions as suggestions. Validate the model early with realistic photos.
+- Photo analysis: MobileNet V2 and YOLO11 nano run concurrently in the browser after photo selection. The UI shows each model's progress and optional label suggestions, without raw guesses or scores. Both require user confirmation. See `docs/Photo-Model-Evaluation.md` for the current small-sample comparison.
 - Photo privacy: do not send or persist the image on the backend in the planned MVP.
 - Hosting shape: serve the built frontend and Express API from one application/container where practical; build and run locally with Finch, then host the container on Render.
 - No user accounts, user history, photo storage, admin interface, or database are planned for the MVP.
@@ -63,15 +63,19 @@ flowchart TD
 
 - The user can take a photo, choose a photo, or skip the photo and browse/search.
 - Design the first flow for one primary item per photo. If the photo contains multiple items or is unclear, ask the user to select the intended item, retake the photo, or continue manually.
-- The browser model may suggest broad labels. The user can accept, remove, replace, or add labels before recommendations are requested.
+- Either browser model may suggest broad labels. The user can accept, remove, replace, or add labels before recommendations are requested.
 - A broad-to-exact choice should be possible, e.g. `plastic → container → oil container`. The user can stop at a broad category when they do not know the exact item.
 - Labels describe different facets and can coexist; do not put every term into one flat, mutually exclusive taxonomy:
-  - **Material / waste stream:** plastic, glass, metal, paper, textile, electronics, food/organic waste.
-  - **Specific item:** bottle, oil container, television, shirt, food scraps.
+  - **Materials:** plastic, paper, cardboard, glass, metal of unknown type, iron/steel, aluminium, copper, brass, fabric/textile, wood, rubber, ceramic, and leather. These are distinct choices; selecting a specific metal replaces the broad metal label in the UI and backend.
+  - **Waste types:** electronics, organic waste, and mixed waste are broad streams, displayed separately from raw materials.
+  - **Specific item:** browse the expanded catalogue under collapsible headings for packaging, plastic items, electronics, food and garden, paper and cardboard, glass, metals, clothing and textiles, furniture, toys, vehicles, construction and repair, office and school supplies, kitchen items, special handling, and other items. Search also matches item names and synonyms. Duplicate terms are consolidated into existing canonical labels in `backend/data/catalog.json`.
   - **Condition:** usable, working, repairable, damaged, contaminated, unknown.
-  - **Properties:** biodegradable, hazardous, reusable, where applicable.
+  - **Properties:** biodegradable, non-biodegradable, labeled compostable, potentially hazardous, or containing oil or chemical residue, where applicable. Biodegradable and compostable are distinct; non-biodegradable cannot be combined with either.
   - **Context:** home, workplace, outdoors.
 - The photo cannot reliably establish whether an appliance works, what a container held, or whether an item is contaminated. Ask the user when these details affect advice.
+- Every selectable label has general reuse and/or recycling guidance in the JSON catalogue. Item records also have a category and donation suitability; the data loader rejects incomplete entries. Specialist waste such as batteries, lamps, medicines, and chemicals needs reviewed guidance before it is offered as a specific item.
+- New labels receive broad, category-level guidance as an MVP starting point. They do not imply that a specific local collector or NGO accepts an item. Review and refine special-handling advice and local rules before treating it as authoritative. Add, remove, or reclassify labels in `backend/data/catalog.json` and update `backend/data/guidance.json` where needed.
+- A model-suggested item opens its item category even if the user previously closed it. The user can then open or close any category. Search also opens matching item categories. Selecting a model suggestion clears a filter that would hide the selected label.
 
 ### Results and route behavior
 
@@ -114,32 +118,34 @@ flowchart LR
 ### Component responsibilities
 
 - **React frontend:** Camera/file input, local image inference, catalogue browsing, label correction, user questions, API requests, and result rendering.
-- **Image-analysis adapter:** A small frontend module with a stable interface, such as `analyzeImage(file) -> predictions`. It hides the model-specific implementation so the model can be changed without rewriting the workflow.
+- **Image-analysis adapters:** MobileNet and YOLO11 load on photo selection and run concurrently. Each maps a narrow set of supported outputs to optional catalogue labels. The UI shows progress and suggestions from each model separately. The adapters can be replaced as models improve.
 - **Express API:** Accepts confirmed structured data, validates it, calls recommendation logic, and returns normalized results. It does not receive photos in the MVP.
 - **Recommendation engine:** A plain application module, separate from Express request handlers. It resolves IDs, applies rules, and constructs route statuses and advice.
-- **JSON data:** Reviewed item labels, advice, service areas, and source/review notes.
+- **JSON data:** Starter item labels and general advice, plus source-backed national guidance for selected items in India.
 - **Container/hosting:** Finch is used locally for the container workflow. Render is the proposed external host for a public demo.
 
 ## 5. Photo analysis and processing
 
 ### Proposed MVP approach
 
-Prototype a **browser-side TensorFlow.js MobileNet-based classifier** to suggest broad material or waste categories. This is a candidate approach, not a validated model decision. TensorFlow.js can run image classification in a browser; the user’s image need not be sent to the API. See [TensorFlow.js image classification](https://www.tensorflow.org/js/tutorials/transfer/image_classification).
+The first prototype uses **TensorFlow.js MobileNet V2** to classify the single primary object in the browser. The model loads when a user selects a photo. Model weights come from TensorFlow's public Google Storage model archive, while image data stays in the browser and is not sent to the API. A narrow mapping turns selected ImageNet classes into editable catalogue suggestions: television to Television, bottle to the broad Container label, garment classes to Clothing, and selected devices to Electronics. A class explicitly naming plastic, paper, or cardboard may suggest that material. The model does not identify oil contamination, working condition, or most waste-specific categories. No accuracy claim is made until it is evaluated on realistic phone photos. See [MobileNet documentation](https://github.com/tensorflow/tfjs-models/blob/master/mobilenet/README.md).
+
+The implementation maps the leading supported MobileNet class, plus specific items from lower-ranked top-five predictions, when their raw score is at least 10%. Lower-ranked or low-scoring matches are treated cautiously, and broad materials or Electronics are not suggested from lower-ranked guesses. This allows a recognizable object such as a computer mouse to be offered when the model ranks it below unsupported guesses. **YOLO11 nano** concurrently runs the official COCO object detector in the same browser on the same photo. Its ONNX weights and ONNX Runtime Web assets are served by the application, so photo pixels stay local. YOLO11 can suggest broad objects such as a bottle, but COCO object classes do not specify the bottle's material or contents. YOLO11 detections below a 50% raw score do not become catalogue suggestions. The UI shows each model's running or finished state and any suggested labels. It does not show raw guesses, scores, or timing, and no model result is applied automatically. See [YOLO11 documentation](https://docs.ultralytics.com/models/yolo11/).
 
 The TrashNet dataset is a possible starting point for broad waste classes: glass, paper, cardboard, plastic, metal, and trash. Its repository describes 2,527 images, mostly photographed against a white background, so its training conditions may not match varied phone photos. It does not cover every Re-Intent item type, including all electronics, clothing, or organic waste. Treat it as a prototype/training resource, not evidence of field accuracy. See [TrashNet dataset](https://github.com/garythung/trashnet).
 
 ### Prediction handling
 
 1. The user chooses an image in the browser.
-2. The frontend resizes/preprocesses it as required by the model and performs inference locally.
-3. The model returns candidate labels and scores.
-4. The frontend maps supported model classes to Re-Intent catalogue IDs.
-5. The UI presents candidates as editable suggestions, not facts.
-6. If the prediction is unclear, unsupported, or the model fails, the user searches or selects labels manually.
+2. The frontend preprocesses it for MobileNet and YOLO11, then starts both inferences concurrently in the browser.
+3. Each model returns its own object guesses and raw scores.
+4. The frontend maps supported classes from each model to Re-Intent catalogue IDs.
+5. The UI shows both sets of optional label suggestions separately; it never selects a label automatically.
+6. Once both finish, if neither has a supported label suggestion, the UI gives a friendly link to the manual label picker. Model failures also leave manual selection available.
 7. The user confirms the item and enters condition/context.
 8. The frontend sends only confirmed structured fields to the API.
 
-Do not show a probability as a trustworthy confidence percentage until evaluated/calibrated. Do not infer appliance function, contamination, donation eligibility, or local recycling acceptance from a photo. The model only predicts classes it was trained/configured to recognize; manual selection covers other classes.
+Raw model scores remain internal to the suggestion rules and evaluation report; the user-facing page shows only status and selectable labels. Do not infer appliance function, contamination, donation eligibility, or local recycling acceptance from a photo. Each model only predicts classes it was trained/configured to recognize; manual selection covers other classes.
 
 ### Photo storage and database implications
 
@@ -163,6 +169,7 @@ backend/
   data/
     catalog.json       # labels, hierarchy, facets, synonyms
     guidance.json      # reuse, recycle/dispose, donation suitability rules/advice
+    recycle-rules.json # ordered condition and material rules for disposal
     areas.json         # service areas supported in the MVP
 ```
 
@@ -216,7 +223,8 @@ These are design examples. Actual item instructions and local guidance must be r
   "propertyIds": [],
   "condition": "working",
   "environment": "home",
-  "areaId": "pilot-area-1"
+  "areaId": "in",
+  "area": "Pune"
 }
 ```
 
@@ -232,7 +240,7 @@ Returns labels available for browse, search, and correction. Optional query para
 
 ### `GET /api/v1/areas`
 
-Returns supported service areas for local guidance and optional nearby searches. In the MVP, users can choose/enter an area; precise GPS access is not required.
+Returns supported areas and their scope. The first supported area is `in` (India), with national guidance. An optional free-text `area`, such as a city, makes the donation search more specific; it does not turn national guidance into verified city instructions. Precise GPS access is not required.
 
 ### `POST /api/v1/recommendations`
 
@@ -246,7 +254,9 @@ Example response shape:
     "itemId": "television",
     "label": "Television",
     "materialIds": ["electronics"],
-    "condition": "working"
+    "condition": "working",
+    "areaId": "in",
+    "area": "Pune"
   },
   "routes": {
     "reuse": {
@@ -257,21 +267,24 @@ Example response shape:
     "recycle": {
       "status": "available",
       "title": "Recycle or dispose",
-      "items": []
+      "scope": "national",
+      "localStatus": "national_guidance",
+      "municipalDetailsVerified": false,
+      "items": [{ "title": "Use an e-waste collection route", "text": "...", "sources": [{ "title": "E-Waste (Management) Rules, 2022 — Schedule I", "url": "https://moef.gov.in/uploads/2022/11/E-Waste-Management-Rules-2022.pdf", "reviewedAt": "2026-10-08" }] }]
     },
     "donation": {
       "status": "consider",
       "title": "Donation",
       "message": "Based on your selection that the TV works, donation may be worth considering. Confirm acceptance directly with an organization.",
-      "searchQuery": "donate working television near Pilot Area"
+      "acceptanceVerified": false
     }
   }
 }
 ```
 
-Donation status must not imply a verified organization match. Suitable statuses for individual routes include `available`, `need_more_information`, `not_applicable`, `no_guidance`, and for donation specifically `consider`, `probably_not_suitable`, or `user_choice`. The final enum can be normalized during implementation.
+Donation status does not imply a verified organization match. A donation search link is returned only when `searchForDonation` is true. For recycling, `scope: "national"` means the source supports India-wide guidance; `municipalDetailsVerified: false` means the user must still confirm local collection and acceptance. If no source-backed area guidance matches the item, the API returns general advice with `localStatus: "unavailable"`.
 
-The frontend can construct a Google search/Maps URL from a returned query or construct it itself. The action should be labeled as a search, e.g. **Search nearby organizations**, not “Find a verified accepting NGO.” Search results may be inaccurate or stale; the user needs to confirm details directly.
+When requested, the backend returns a Google Maps search URL. The action should be labeled **Search nearby organizations**, not “Find a verified accepting NGO.” Search results may be inaccurate or stale; the user needs to confirm details directly.
 
 ### `GET /health`
 
@@ -291,12 +304,12 @@ These are intentionally excluded from the initial workflow, not forgotten requir
 
 The recommendation service should be separate from Express route code and work approximately as follows:
 
-1. **Validate:** Check required fields and allowed IDs/enums (`condition`, `environment`, `areaId`). Enforce request size limits.
-2. **Normalize:** Map synonyms to canonical catalogue IDs; deduplicate labels.
+1. **Validate:** Check required fields and allowed IDs/enums (`condition`, `environment`, `areaId`), and constrain the optional free-text `area`. Enforce request size limits.
+2. **Normalize:** The UI selects canonical catalogue IDs; the backend deduplicates labels. Catalogue search supports synonyms.
 3. **Resolve specificity:** Prefer an exact item. If only a broad material is supplied, use broad guidance only where appropriate; otherwise ask a follow-up question.
 4. **Load applicable guidance:** Retrieve the item-level and, where safe, parent-category advice from JSON.
 5. **Build reuse route:** Select matching reuse advice and context notes.
-6. **Build recycle/dispose route:** Select item and area guidance. If area information is absent or not covered, communicate that limitation rather than guessing.
+6. **Build recycle/dispose route:** Check hazardous properties and oil or chemical residue labels first. Then match the first applicable rule in `recycle-rules.json` against the item, material, condition, and, for paper cups that are not contaminated, lining. `Contaminated` directly means dirty or unusable and selects disposal advice without a second residue question. If the material or paper cup lining is needed but unknown, return `need_more_information` with the next question. Use source-backed area guidance when no more specific safety or condition rule applies. Do not infer a city collection stream from free-text `area`.
 7. **Build donation advice:** Use item-category suitability and the user-reported condition. Do not query or claim verified organization acceptance. Respect the user’s choice to open a search.
 8. **Return a consistent response:** Each route has a status, explanatory text, and optional actions/items. Missing knowledge is represented explicitly.
 
@@ -307,27 +320,20 @@ The backend is stateless for the MVP: it processes a request and returns a respo
 ```text
 backend/
   src/
-    app.js                    # Express setup and static frontend serving
-    routes/
-      catalog.routes.js
-      areas.routes.js
-      recommendations.routes.js
-      health.routes.js
-    services/
-      catalog.service.js
-      recommendation.service.js
-      search-link.service.js   # optional query/link construction
-    middleware/
-      validate-request.js
-      error-handler.js
-    data/
-      catalog.json
-      guidance.json
-      areas.json
-  Dockerfile
+    app.js                    # Express routes, Helmet, and error handling
+    server.js                 # API startup
+    data-store.js             # JSON loading and integrity checks
+    recommendations.js        # validation and recommendation rules
+  data/
+    catalog.json
+    guidance.json             # general and India-wide source-backed entries
+    recycle-rules.json        # condition-based recycle/dispose steps
+    areas.json
+  test/
+    backend.test.js
 ```
 
-The exact structure can change, but route handlers should remain thin; recommendation rules and data lookup should live in services that can be maintained independently of HTTP details.
+The Express app now serves the built frontend from `frontend/dist` when it is available. During development, Vite serves the frontend and proxies API requests to Express. Recommendation rules remain separate from HTTP route handling. The root Dockerfile builds the frontend and packages it with the backend for local Finch runs and future hosting.
 
 ## 10. Error handling, privacy, and safety
 
@@ -361,7 +367,7 @@ Render’s free tier may have sleep, capacity, or usage limitations; check provi
 
 ### Phase 1 — Lock the content scope
 
-- Choose one pilot service area.
+- Begin with India-wide national guidance; a municipality can be added later for collection details.
 - Choose a modest initial item catalogue, including broad labels and exact items.
 - Gather/review reuse and disposal guidance and record sources/review dates.
 - Define donation-suitability wording and search query format without claiming organization acceptance.
@@ -372,9 +378,9 @@ Render’s free tier may have sleep, capacity, or usage limitations; check provi
 - Implement JSON-backed catalogue and recommendation rules.
 - Confirm all three routes handle “available,” “need more information,” and “no suitable guidance” cases.
 
-### Phase 3 — Add photo suggestions
+### Phase 3 — Evaluate and improve photo suggestions
 
-- Integrate the browser model behind the image-analysis adapter.
+- The browser model is integrated behind the image-analysis adapter; review its output and mapping before broadening coverage.
 - Test a small varied photo set (lighting, angle, background, item types) early.
 - Review failure patterns; tune the model or keep manual selection as the fallback.
 - Treat broad material labels as the initial prediction target; let the user choose the exact item.
@@ -389,9 +395,9 @@ Render’s free tier may have sleep, capacity, or usage limitations; check provi
 
 These remain to be decided or validated; they are not hidden implementation facts:
 
-1. Which city/region is the pilot area?
-2. Which exact items and broad material labels belong in the first catalogue?
-3. What reliable local sources will support recycling/disposal guidance?
+1. Which municipality should be added after the initial India-wide guidance?
+2. Which further specialist items should be added after the current expanded catalogue and source review?
+3. Which municipal sources will support collection and drop-off guidance?
 4. Does the hackathon organizer accept Finch as the AWS open-source tool for eligibility? The supplied screenshot lists it, but confirm the event’s interpretation.
 5. Does the proposed model perform adequately on realistic phone photos and target phones? This must be tested; no accuracy guarantee is made.
 6. Will location be typed/selected as an area, or will an optional location-permission flow be added later?
@@ -402,4 +408,8 @@ These remain to be decided or validated; they are not hidden implementation fact
 - [TrashNet dataset, classes, and collection notes](https://github.com/garythung/trashnet)
 - [AWS Finch on Windows](https://aws.amazon.com/blogs/opensource/finch-container-development-tool-now-for-windows/)
 - [Render free services and limitations](https://render.com/docs/free)
+- [India Solid Waste Management Rules, 2026](https://moef.gov.in/uploads/pdf-uploads/pdf_69a16e3b04c107.91022257.pdf)
+- [India E-Waste (Management) Rules, 2022](https://moef.gov.in/uploads/2022/11/E-Waste-Management-Rules-2022.pdf)
+- [US EPA standardized recycling material categories](https://www.epa.gov/circulareconomy/standardized-terms-materials-accepted-municipal-recycling-programs) — vocabulary reference only, not India-specific collection rules.
+- [US EPA biodegradable and compostable distinction](https://www.epa.gov/trash-free-waters/frequently-asked-questions-about-plastic-recycling-and-composting) — definition reference; local composting acceptance still needs confirmation.
 

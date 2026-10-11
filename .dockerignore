@@ -1,0 +1,13 @@
+.git/
+.github/
+.model-benchmark/
+.uv-cache/
+docs/
+scripts/
+**/node_modules/
+frontend/dist/
+frontend/public/ort/
+backend/test/
+**/.env
+**/.env.*
+**/*.log

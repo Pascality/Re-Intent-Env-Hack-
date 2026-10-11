@@ -1,0 +1,3739 @@
+{
+  "items": {
+    "oil-container": {
+      "reuse": [
+        {
+          "title": "Reuse only when safe and clean",
+          "text": "If the container can be cleaned safely and its prior contents are known, consider a non-food storage use."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check local container guidance",
+        "text": "Do not assume an oil container is accepted with ordinary plastic recycling. Follow local instructions for its material and prior contents."
+      }
+    },
+    "plastic-bottle": {
+      "reuse": [
+        {
+          "title": "Reuse as a container",
+          "text": "If clean and in good condition, consider a non-food storage or gardening use."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check local plastic rules",
+        "text": "Acceptance can depend on the plastic type and local collection rules. Check local guidance before placing it in recycling."
+      }
+    },
+    "television": {
+      "reuse": [
+        {
+          "title": "Keep, repair, or pass it on",
+          "text": "If it works, consider continued use or repair before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Use electronics disposal guidance",
+        "text": "Check local instructions for electronic equipment; do not assume it belongs in ordinary household recycling."
+      }
+    },
+    "air-conditioner": {
+      "reuse": [
+        {
+          "title": "Repair or continue using",
+          "text": "If it works safely, continued use or repair may extend its life."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check specialist disposal guidance",
+        "text": "Follow local guidance for appliances and any refrigerant or electrical handling requirements. Do not dismantle it unless qualified."
+      }
+    },
+    "clothing": {
+      "reuse": [
+        {
+          "title": "Repair or repurpose",
+          "text": "Consider mending, repurposing, or using it as a cleaning cloth if appropriate."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check textile collection options",
+        "text": "Textile recycling and collection options vary by location. Check local guidance for worn or damaged clothing."
+      }
+    },
+    "food-scraps": {
+      "reuse": [
+        {
+          "title": "Check whether it can be used or composted",
+          "text": "If safe and suitable, consider using the food; otherwise check whether a local composting or food-waste program accepts it."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Keep food scraps with wet waste",
+        "text": "Separate food scraps from dry recyclables. Use a suitable home or community composting option if available, or give them to your local wet-waste collection. Check local rules before adding meat, dairy, or cooked food to a home compost pile."
+      }
+    },
+    "container": {
+      "reuse": [
+        {
+          "title": "Identify its contents first",
+          "text": "Reuse only when you know what it held and can clean it safely. Do not use a former chemical container for food or drinking water."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Choose a more specific container",
+        "text": "The material and any remaining contents change the disposal route. Choose a specific item or add its material and check local collection rules."
+      }
+    },
+    "glass-bottle": {
+      "reuse": [
+        {
+          "title": "Reuse an intact jar or bottle",
+          "text": "If it is clean and undamaged, use it again for suitable storage or crafts."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check glass collection",
+        "text": "Empty the container and check whether your local collector accepts this type of glass. Keep broken glass safely wrapped and follow local instructions."
+      }
+    },
+    "metal-can": {
+      "reuse": [
+        {
+          "title": "Repurpose a safe can",
+          "text": "An empty, clean can without sharp edges may work as a holder or planter."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check metal packaging collection",
+        "text": "Empty the can and ask your local collector whether it accepts metal food or drink cans. A can that held paint or chemicals needs separate guidance."
+      }
+    },
+    "cardboard-box": {
+      "reuse": [
+        {
+          "title": "Use the box again",
+          "text": "A dry, sturdy box can be reused for packing, storage, or moving."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Keep cardboard dry",
+        "text": "Flatten clean, dry boxes if your local collector accepts cardboard. Wet or food-soiled cardboard may need another route."
+      }
+    },
+    "paper-bag": {
+      "reuse": [
+        {
+          "title": "Reuse while sturdy",
+          "text": "Use a clean, intact bag for carrying or storing dry items."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check paper collection",
+        "text": "Clean, dry paper bags may be accepted with paper. Check local rules for coated or food-soiled bags."
+      }
+    },
+    "plastic-food-container": {
+      "reuse": [
+        {
+          "title": "Reuse only when appropriate",
+          "text": "A clean, undamaged container can be repurposed. Do not assume single-use packaging is safe for heating or long-term food storage."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the container type",
+        "text": "Empty and clean it where practical, then check whether local collection accepts this type of plastic container."
+      }
+    },
+    "plastic-film": {
+      "reuse": [
+        {
+          "title": "Use intact bags again",
+          "text": "An intact, clean bag can be reused for carrying or lining a bin."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check film-specific collection",
+        "text": "Flexible films and wrappers may be handled differently from rigid plastic bottles. Check local acceptance before mixing them with other recyclables."
+      }
+    },
+    "mobile-phone": {
+      "reuse": [
+        {
+          "title": "Repair or pass on a working phone",
+          "text": "If it is safe and usable, consider repair or reuse. Back up and erase personal data before passing it on."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Find an e-waste collection route",
+        "text": "Ask the producer or a local authorised collection or recycling service how to hand over the phone. Do not put it in ordinary dry recycling."
+      }
+    },
+    "laptop": {
+      "reuse": [
+        {
+          "title": "Repair or pass on a working computer",
+          "text": "Consider repair or reuse if safe. Back up and erase personal data before giving it away."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Use an e-waste route",
+        "text": "Check producer take-back or an authorised e-waste collection option. Keep batteries and components intact unless a qualified service advises otherwise."
+      }
+    },
+    "computer-mouse": {
+      "reuse": [
+        {
+          "title": "Keep a working mouse in use",
+          "text": "If the mouse and its receiver or charging cable still work, consider using it as a spare or passing it on with its accessories."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Use an e-waste collection route",
+        "text": "Ask a producer take-back service or an authorised e-waste collector about the mouse. If it has a removable battery, follow the product instructions and local battery collection guidance; do not put either item in ordinary dry recycling."
+      }
+    },
+    "charger-cable": {
+      "reuse": [
+        {
+          "title": "Keep a safe, working spare",
+          "text": "Reuse a compatible charger or cable only if its insulation and connectors are undamaged."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Ask an e-waste collector",
+        "text": "Check whether a local e-waste service accepts chargers, adapters, and cables. Do not mix them with ordinary metal packaging."
+      }
+    },
+    "refrigerator": {
+      "reuse": [
+        {
+          "title": "Repair or pass on a working fridge",
+          "text": "If it cools reliably and is safe, consider repair or reuse before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Arrange specialist appliance collection",
+        "text": "Ask the producer or an authorised collector how to handle the appliance and refrigerant. Do not cut pipes or dismantle it yourself."
+      }
+    },
+    "washing-machine": {
+      "reuse": [
+        {
+          "title": "Repair or pass on a working machine",
+          "text": "Consider repair or reuse if it operates safely and does not leak."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Use an appliance collection route",
+        "text": "Check producer take-back or authorised e-waste collection for the complete machine. Confirm pickup arrangements locally."
+      }
+    },
+    "small-appliance": {
+      "reuse": [
+        {
+          "title": "Repair or reuse if safe",
+          "text": "A working appliance may be useful to someone else. Do not reuse one with damaged wiring or unsafe operation."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check appliance e-waste collection",
+        "text": "Ask a local e-waste service whether it accepts this exact appliance. Remove loose batteries only if the product instructions say this is safe."
+      }
+    },
+    "shoes": {
+      "reuse": [
+        {
+          "title": "Clean or repair the pair",
+          "text": "If the soles and uppers are usable, clean or repair the shoes for continued use."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check footwear collection",
+        "text": "Shoes combine several materials and are not automatically accepted with textile recycling. Ask local collectors about worn footwear."
+      }
+    },
+    "bag": {
+      "reuse": [
+        {
+          "title": "Repair or reuse the bag",
+          "text": "Clean the bag and repair simple damage such as a loose strap or zipper if practical."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Identify the bag's materials",
+        "text": "Fabric, leather, and plastic bags can require different collection routes. Check local options for the main material and condition."
+      }
+    },
+    "bedding": {
+      "reuse": [
+        {
+          "title": "Keep textiles in use",
+          "text": "Clean bedsheets and towels can be reused, repaired, or cut into suitable cleaning cloths."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check textile collection",
+        "text": "Ask local textile collectors whether they accept worn or damaged household linens. Keep unsuitable or contaminated textiles separate."
+      }
+    },
+    "books": {
+      "reuse": [
+        {
+          "title": "Share readable books",
+          "text": "Pass on books in readable condition to people, libraries, or organisations that confirm they want them."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check paper collection",
+        "text": "For books that cannot be reused, ask your local collector about covers, bindings, and paper collection requirements."
+      }
+    },
+    "furniture": {
+      "reuse": [
+        {
+          "title": "Repair or pass on sturdy furniture",
+          "text": "Clean and repair the piece where practical. Check that it is stable and safe before giving it away."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Ask about bulky-item collection",
+        "text": "Furniture may contain wood, metal, fabric, and foam. Check local bulky-waste or material-specific collection options."
+      }
+    },
+    "toys": {
+      "reuse": [
+        {
+          "title": "Pass on safe, complete toys",
+          "text": "Clean and check for missing parts, sharp edges, and working electronics before reuse."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the toy's materials",
+        "text": "A toy may combine plastic, fabric, metal, or electronics. Check local instructions for its components and any batteries."
+      }
+    },
+    "fruit-vegetable-peels": {
+      "reuse": [
+        {
+          "title": "Compost where suitable",
+          "text": "If you have a suitable compost setup, plant scraps may be useful there. Follow the rules of your composting method or collection service."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Keep with accepted wet waste",
+        "text": "Separate peels from dry recyclables and check your local wet-waste or compost collection instructions."
+      }
+    },
+    "garden-trimmings": {
+      "reuse": [
+        {
+          "title": "Mulch or compost suitable trimmings",
+          "text": "Clean leaves and small plant trimmings may be useful as mulch or compost, if suitable for your setup."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Separate leaves and plant trimmings",
+        "text": "Keep untreated leaves and small plant trimmings separate for composting or local garden-waste collection. Ask your collector about branches; keep painted or treated wood out of compost."
+      }
+    },
+    "keyboard": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+      }
+    },
+    "tablet": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+      }
+    },
+    "monitor": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+      }
+    },
+    "printer": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+      }
+    },
+    "webcam": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+      }
+    },
+    "headphones": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+      }
+    },
+    "earphones": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+      }
+    },
+    "speakers": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+      }
+    },
+    "chargers": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+      }
+    },
+    "power-banks": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Use battery or e-waste collection for a power bank",
+        "text": "Do not put a power bank in ordinary dry recycling or open it to remove its battery. Ask the producer or a local designated battery or e-waste collection point for its route. If it is swollen, leaking, or hot, stop using it and seek local safety guidance before moving it."
+      }
+    },
+    "wi-fi-routers": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+      }
+    },
+    "remote-controls": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+      }
+    },
+    "hard-drives": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+      }
+    },
+    "usb-drives": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+      }
+    },
+    "game-controllers": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+      }
+    },
+    "cameras": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+      }
+    },
+    "smartwatches": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+      }
+    },
+    "calculators": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+      }
+    },
+    "electric-toothbrushes": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+      }
+    },
+    "hair-dryers": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+      }
+    },
+    "electric-shavers": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+      }
+    },
+    "set-top-boxes": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+      }
+    },
+    "dvd-players": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+      }
+    },
+    "irons": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+      }
+    },
+    "shampoo-bottles": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse only if the item is clean, safe, and suitable for another use. Empty it and check local acceptance before placing it in recycling; contents and plastic type can change the route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse only if the item is clean, safe, and suitable for another use. Empty it and check local acceptance before placing it in recycling; contents and plastic type can change the route."
+      }
+    },
+    "detergent-bottles": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse only if the item is clean, safe, and suitable for another use. Empty it and check local acceptance before placing it in recycling; contents and plastic type can change the route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse only if the item is clean, safe, and suitable for another use. Empty it and check local acceptance before placing it in recycling; contents and plastic type can change the route."
+      }
+    },
+    "water-cans": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse only if the item is clean, safe, and suitable for another use. Empty it and check local acceptance before placing it in recycling; contents and plastic type can change the route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse only if the item is clean, safe, and suitable for another use. Empty it and check local acceptance before placing it in recycling; contents and plastic type can change the route."
+      }
+    },
+    "food-containers": {
+      "reuse": [
+        {
+          "title": "Reuse a sound food container",
+          "text": "Reuse a clean container only if it is safe and intended for the purpose. Do not reuse damaged or contaminated packaging for food."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the container material",
+        "text": "Empty the container, choose its material if known, and check local collection rules for residue, coatings, and attached parts."
+      }
+    },
+    "plastic-buckets": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse only if the item is clean, safe, and suitable for another use. Empty it and check local acceptance before placing it in recycling; contents and plastic type can change the route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse only if the item is clean, safe, and suitable for another use. Empty it and check local acceptance before placing it in recycling; contents and plastic type can change the route."
+      }
+    },
+    "plastic-mugs": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse only if the item is clean, safe, and suitable for another use. Empty it and check local acceptance before placing it in recycling; contents and plastic type can change the route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse only if the item is clean, safe, and suitable for another use. Empty it and check local acceptance before placing it in recycling; contents and plastic type can change the route."
+      }
+    },
+    "storage-boxes": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse only if the item is clean, safe, and suitable for another use. Empty it and check local acceptance before placing it in recycling; contents and plastic type can change the route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse only if the item is clean, safe, and suitable for another use. Empty it and check local acceptance before placing it in recycling; contents and plastic type can change the route."
+      }
+    },
+    "reusable-food-containers": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse only if the item is clean, safe, and suitable for another use. Empty it and check local acceptance before placing it in recycling; contents and plastic type can change the route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse only if the item is clean, safe, and suitable for another use. Empty it and check local acceptance before placing it in recycling; contents and plastic type can change the route."
+      }
+    },
+    "plastic-hangers": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse only if the item is clean, safe, and suitable for another use. Empty it and check local acceptance before placing it in recycling; contents and plastic type can change the route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse only if the item is clean, safe, and suitable for another use. Empty it and check local acceptance before placing it in recycling; contents and plastic type can change the route."
+      }
+    },
+    "broken-plastic-chairs": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse only if the item is clean, safe, and suitable for another use. Empty it and check local acceptance before placing it in recycling; contents and plastic type can change the route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse only if the item is clean, safe, and suitable for another use. Empty it and check local acceptance before placing it in recycling; contents and plastic type can change the route."
+      }
+    },
+    "plastic-crates": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse only if the item is clean, safe, and suitable for another use. Empty it and check local acceptance before placing it in recycling; contents and plastic type can change the route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse only if the item is clean, safe, and suitable for another use. Empty it and check local acceptance before placing it in recycling; contents and plastic type can change the route."
+      }
+    },
+    "packaging-trays": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse only if the item is clean, safe, and suitable for another use. Empty it and check local acceptance before placing it in recycling; contents and plastic type can change the route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse only if the item is clean, safe, and suitable for another use. Empty it and check local acceptance before placing it in recycling; contents and plastic type can change the route."
+      }
+    },
+    "disposable-food-containers": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse only if the item is clean, safe, and suitable for another use. Empty it and check local acceptance before placing it in recycling; contents and plastic type can change the route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse only if the item is clean, safe, and suitable for another use. Empty it and check local acceptance before placing it in recycling; contents and plastic type can change the route."
+      }
+    },
+    "plastic-bottle-caps": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse only if the item is clean, safe, and suitable for another use. Empty it and check local acceptance before placing it in recycling; contents and plastic type can change the route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse only if the item is clean, safe, and suitable for another use. Empty it and check local acceptance before placing it in recycling; contents and plastic type can change the route."
+      }
+    },
+    "pvc-pipes": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse only if the item is clean, safe, and suitable for another use. Empty it and check local acceptance before placing it in recycling; contents and plastic type can change the route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse only if the item is clean, safe, and suitable for another use. Empty it and check local acceptance before placing it in recycling; contents and plastic type can change the route."
+      }
+    },
+    "newspapers": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse clean items where practical. Keep paper and cardboard dry, and check local collection rules for coatings, bindings, food residue, or mixed materials."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse clean items where practical. Keep paper and cardboard dry, and check local collection rules for coatings, bindings, food residue, or mixed materials."
+      }
+    },
+    "magazines": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse clean items where practical. Keep paper and cardboard dry, and check local collection rules for coatings, bindings, food residue, or mixed materials."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse clean items where practical. Keep paper and cardboard dry, and check local collection rules for coatings, bindings, food residue, or mixed materials."
+      }
+    },
+    "cardboard-boxes": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse clean items where practical. Keep paper and cardboard dry, and check local collection rules for coatings, bindings, food residue, or mixed materials."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse clean items where practical. Keep paper and cardboard dry, and check local collection rules for coatings, bindings, food residue, or mixed materials."
+      }
+    },
+    "packaging-cartons": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse clean items where practical. Keep paper and cardboard dry, and check local collection rules for coatings, bindings, food residue, or mixed materials."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse clean items where practical. Keep paper and cardboard dry, and check local collection rules for coatings, bindings, food residue, or mixed materials."
+      }
+    },
+    "office-documents": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse clean items where practical. Keep paper and cardboard dry, and check local collection rules for coatings, bindings, food residue, or mixed materials."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse clean items where practical. Keep paper and cardboard dry, and check local collection rules for coatings, bindings, food residue, or mixed materials."
+      }
+    },
+    "paper-files": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse clean items where practical. Keep paper and cardboard dry, and check local collection rules for coatings, bindings, food residue, or mixed materials."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse clean items where practical. Keep paper and cardboard dry, and check local collection rules for coatings, bindings, food residue, or mixed materials."
+      }
+    },
+    "egg-cartons": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse clean items where practical. Keep paper and cardboard dry, and check local collection rules for coatings, bindings, food residue, or mixed materials."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse clean items where practical. Keep paper and cardboard dry, and check local collection rules for coatings, bindings, food residue, or mixed materials."
+      }
+    },
+    "greeting-cards": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse clean items where practical. Keep paper and cardboard dry, and check local collection rules for coatings, bindings, food residue, or mixed materials."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse clean items where practical. Keep paper and cardboard dry, and check local collection rules for coatings, bindings, food residue, or mixed materials."
+      }
+    },
+    "envelopes": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse clean items where practical. Keep paper and cardboard dry, and check local collection rules for coatings, bindings, food residue, or mixed materials."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse clean items where practical. Keep paper and cardboard dry, and check local collection rules for coatings, bindings, food residue, or mixed materials."
+      }
+    },
+    "calendars": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse clean items where practical. Keep paper and cardboard dry, and check local collection rules for coatings, bindings, food residue, or mixed materials."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse clean items where practical. Keep paper and cardboard dry, and check local collection rules for coatings, bindings, food residue, or mixed materials."
+      }
+    },
+    "wrapping-paper": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse clean items where practical. Keep paper and cardboard dry, and check local collection rules for coatings, bindings, food residue, or mixed materials."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse clean items where practical. Keep paper and cardboard dry, and check local collection rules for coatings, bindings, food residue, or mixed materials."
+      }
+    },
+    "perfume-bottles": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse only if clean and undamaged. Check local collection rules because containers, mirrors, cookware, and window glass may use different routes; protect handlers from broken pieces."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse only if clean and undamaged. Check local collection rules because containers, mirrors, cookware, and window glass may use different routes; protect handlers from broken pieces."
+      }
+    },
+    "medicine-bottles": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse only if clean and undamaged. Check local collection rules because containers, mirrors, cookware, and window glass may use different routes; protect handlers from broken pieces."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse only if clean and undamaged. Check local collection rules because containers, mirrors, cookware, and window glass may use different routes; protect handlers from broken pieces."
+      }
+    },
+    "glass-tumblers": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse only if clean and undamaged. Check local collection rules because containers, mirrors, cookware, and window glass may use different routes; protect handlers from broken pieces."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse only if clean and undamaged. Check local collection rules because containers, mirrors, cookware, and window glass may use different routes; protect handlers from broken pieces."
+      }
+    },
+    "window-glass": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse only if clean and undamaged. Check local collection rules because containers, mirrors, cookware, and window glass may use different routes; protect handlers from broken pieces."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse only if clean and undamaged. Check local collection rules because containers, mirrors, cookware, and window glass may use different routes; protect handlers from broken pieces."
+      }
+    },
+    "mirrors": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse only if clean and undamaged. Check local collection rules because containers, mirrors, cookware, and window glass may use different routes; protect handlers from broken pieces."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse only if clean and undamaged. Check local collection rules because containers, mirrors, cookware, and window glass may use different routes; protect handlers from broken pieces."
+      }
+    },
+    "cosmetic-containers": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse only if clean and undamaged. Check local collection rules because containers, mirrors, cookware, and window glass may use different routes; protect handlers from broken pieces."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse only if clean and undamaged. Check local collection rules because containers, mirrors, cookware, and window glass may use different routes; protect handlers from broken pieces."
+      }
+    },
+    "glass-cookware": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse only if clean and undamaged. Check local collection rules because containers, mirrors, cookware, and window glass may use different routes; protect handlers from broken pieces."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse only if clean and undamaged. Check local collection rules because containers, mirrors, cookware, and window glass may use different routes; protect handlers from broken pieces."
+      }
+    },
+    "metal-bottles": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse a safe, sound item where practical. Identify its metal and check local collection rules; coatings, size, attached materials, and previous contents can change its route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse a safe, sound item where practical. Identify its metal and check local collection rules; coatings, size, attached materials, and previous contents can change its route."
+      }
+    },
+    "copper-wires": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse a safe, sound item where practical. Identify its metal and check local collection rules; coatings, size, attached materials, and previous contents can change its route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse a safe, sound item where practical. Identify its metal and check local collection rules; coatings, size, attached materials, and previous contents can change its route."
+      }
+    },
+    "aluminum-foil": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse a safe, sound item where practical. Identify its metal and check local collection rules; coatings, size, attached materials, and previous contents can change its route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse a safe, sound item where practical. Identify its metal and check local collection rules; coatings, size, attached materials, and previous contents can change its route."
+      }
+    },
+    "old-utensils": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse a safe, sound item where practical. Identify its metal and check local collection rules; coatings, size, attached materials, and previous contents can change its route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse a safe, sound item where practical. Identify its metal and check local collection rules; coatings, size, attached materials, and previous contents can change its route."
+      }
+    },
+    "iron-tools": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse a safe, sound item where practical. Identify its metal and check local collection rules; coatings, size, attached materials, and previous contents can change its route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse a safe, sound item where practical. Identify its metal and check local collection rules; coatings, size, attached materials, and previous contents can change its route."
+      }
+    },
+    "metal-shelves": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse a safe, sound item where practical. Identify its metal and check local collection rules; coatings, size, attached materials, and previous contents can change its route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse a safe, sound item where practical. Identify its metal and check local collection rules; coatings, size, attached materials, and previous contents can change its route."
+      }
+    },
+    "broken-bicycles": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse a safe, sound item where practical. Identify its metal and check local collection rules; coatings, size, attached materials, and previous contents can change its route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse a safe, sound item where practical. Identify its metal and check local collection rules; coatings, size, attached materials, and previous contents can change its route."
+      }
+    },
+    "old-pipes": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse a safe, sound item where practical. Identify its metal and check local collection rules; coatings, size, attached materials, and previous contents can change its route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse a safe, sound item where practical. Identify its metal and check local collection rules; coatings, size, attached materials, and previous contents can change its route."
+      }
+    },
+    "screws-and-nails": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse a safe, sound item where practical. Identify its metal and check local collection rules; coatings, size, attached materials, and previous contents can change its route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse a safe, sound item where practical. Identify its metal and check local collection rules; coatings, size, attached materials, and previous contents can change its route."
+      }
+    },
+    "metal-bottle-caps": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse a safe, sound item where practical. Identify its metal and check local collection rules; coatings, size, attached materials, and previous contents can change its route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse a safe, sound item where practical. Identify its metal and check local collection rules; coatings, size, attached materials, and previous contents can change its route."
+      }
+    },
+    "metal-furniture": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse a safe, sound item where practical. Identify its metal and check local collection rules; coatings, size, attached materials, and previous contents can change its route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse a safe, sound item where practical. Identify its metal and check local collection rules; coatings, size, attached materials, and previous contents can change its route."
+      }
+    },
+    "scrap-iron": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse a safe, sound item where practical. Identify its metal and check local collection rules; coatings, size, attached materials, and previous contents can change its route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse a safe, sound item where practical. Identify its metal and check local collection rules; coatings, size, attached materials, and previous contents can change its route."
+      }
+    },
+    "brass-items": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse a safe, sound item where practical. Identify its metal and check local collection rules; coatings, size, attached materials, and previous contents can change its route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse a safe, sound item where practical. Identify its metal and check local collection rules; coatings, size, attached materials, and previous contents can change its route."
+      }
+    },
+    "aluminum-cookware": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse a safe, sound item where practical. Identify its metal and check local collection rules; coatings, size, attached materials, and previous contents can change its route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse a safe, sound item where practical. Identify its metal and check local collection rules; coatings, size, attached materials, and previous contents can change its route."
+      }
+    },
+    "shirts": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+      }
+    },
+    "t-shirts": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+      }
+    },
+    "jeans": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+      }
+    },
+    "trousers": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+      }
+    },
+    "jackets": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+      }
+    },
+    "sweaters": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+      }
+    },
+    "sarees": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+      }
+    },
+    "kurtas": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+      }
+    },
+    "school-uniforms": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+      }
+    },
+    "blankets": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+      }
+    },
+    "curtains": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+      }
+    },
+    "belts": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+      }
+    },
+    "caps": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+      }
+    },
+    "socks": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+      }
+    },
+    "woollen-clothing": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+      }
+    },
+    "fabric-scraps": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+      }
+    },
+    "carpets": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+      }
+    },
+    "rugs": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If clean and usable, consider repair, reuse, or donation. Keep damaged or contaminated textiles separate and check local textile collection options."
+      }
+    },
+    "cupboards": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+      }
+    },
+    "bookshelves": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+      }
+    },
+    "beds": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+      }
+    },
+    "mattresses": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+      }
+    },
+    "sofas": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+      }
+    },
+    "study-desks": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+      }
+    },
+    "lamps": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+      }
+    },
+    "kitchen-utensils": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+      }
+    },
+    "cookware": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+      }
+    },
+    "crockery": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+      }
+    },
+    "baskets": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+      }
+    },
+    "storage-containers": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+      }
+    },
+    "shoe-racks": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+      }
+    },
+    "dressing-tables": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+      }
+    },
+    "side-tables": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+      }
+    },
+    "ironing-boards": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+      }
+    },
+    "plastic-toys": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check that the item is clean, complete, and safe before reuse or donation. Remove or handle batteries only as the product instructions allow; check local collection for broken items."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check that the item is clean, complete, and safe before reuse or donation. Remove or handle batteries only as the product instructions allow; check local collection for broken items."
+      }
+    },
+    "board-games": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check that the item is clean, complete, and safe before reuse or donation. Remove or handle batteries only as the product instructions allow; check local collection for broken items."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check that the item is clean, complete, and safe before reuse or donation. Remove or handle batteries only as the product instructions allow; check local collection for broken items."
+      }
+    },
+    "puzzles": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check that the item is clean, complete, and safe before reuse or donation. Remove or handle batteries only as the product instructions allow; check local collection for broken items."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check that the item is clean, complete, and safe before reuse or donation. Remove or handle batteries only as the product instructions allow; check local collection for broken items."
+      }
+    },
+    "stuffed-toys": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check that the item is clean, complete, and safe before reuse or donation. Remove or handle batteries only as the product instructions allow; check local collection for broken items."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check that the item is clean, complete, and safe before reuse or donation. Remove or handle batteries only as the product instructions allow; check local collection for broken items."
+      }
+    },
+    "tricycles": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check that the item is clean, complete, and safe before reuse or donation. Remove or handle batteries only as the product instructions allow; check local collection for broken items."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check that the item is clean, complete, and safe before reuse or donation. Remove or handle batteries only as the product instructions allow; check local collection for broken items."
+      }
+    },
+    "crayons": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check that the item is clean, complete, and safe before reuse or donation. Remove or handle batteries only as the product instructions allow; check local collection for broken items."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check that the item is clean, complete, and safe before reuse or donation. Remove or handle batteries only as the product instructions allow; check local collection for broken items."
+      }
+    },
+    "drawing-books": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check that the item is clean, complete, and safe before reuse or donation. Remove or handle batteries only as the product instructions allow; check local collection for broken items."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check that the item is clean, complete, and safe before reuse or donation. Remove or handle batteries only as the product instructions allow; check local collection for broken items."
+      }
+    },
+    "sports-equipment": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check that the item is clean, complete, and safe before reuse or donation. Remove or handle batteries only as the product instructions allow; check local collection for broken items."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check that the item is clean, complete, and safe before reuse or donation. Remove or handle batteries only as the product instructions allow; check local collection for broken items."
+      }
+    },
+    "baby-strollers": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check that the item is clean, complete, and safe before reuse or donation. Remove or handle batteries only as the product instructions allow; check local collection for broken items."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check that the item is clean, complete, and safe before reuse or donation. Remove or handle batteries only as the product instructions allow; check local collection for broken items."
+      }
+    },
+    "baby-chairs": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check that the item is clean, complete, and safe before reuse or donation. Remove or handle batteries only as the product instructions allow; check local collection for broken items."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check that the item is clean, complete, and safe before reuse or donation. Remove or handle batteries only as the product instructions allow; check local collection for broken items."
+      }
+    },
+    "building-blocks": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check that the item is clean, complete, and safe before reuse or donation. Remove or handle batteries only as the product instructions allow; check local collection for broken items."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check that the item is clean, complete, and safe before reuse or donation. Remove or handle batteries only as the product instructions allow; check local collection for broken items."
+      }
+    },
+    "dolls": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check that the item is clean, complete, and safe before reuse or donation. Remove or handle batteries only as the product instructions allow; check local collection for broken items."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check that the item is clean, complete, and safe before reuse or donation. Remove or handle batteries only as the product instructions allow; check local collection for broken items."
+      }
+    },
+    "toy-vehicles": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check that the item is clean, complete, and safe before reuse or donation. Remove or handle batteries only as the product instructions allow; check local collection for broken items."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check that the item is clean, complete, and safe before reuse or donation. Remove or handle batteries only as the product instructions allow; check local collection for broken items."
+      }
+    },
+    "skipping-ropes": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check that the item is clean, complete, and safe before reuse or donation. Remove or handle batteries only as the product instructions allow; check local collection for broken items."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check that the item is clean, complete, and safe before reuse or donation. Remove or handle batteries only as the product instructions allow; check local collection for broken items."
+      }
+    },
+    "bicycles": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Consider repair or reuse if the item is safe. Parts, tyres, batteries, and fuel or oil residues may need separate specialist collection; check local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Consider repair or reuse if the item is safe. Parts, tyres, batteries, and fuel or oil residues may need separate specialist collection; check local instructions."
+      }
+    },
+    "scooters": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Consider repair or reuse if the item is safe. Parts, tyres, batteries, and fuel or oil residues may need separate specialist collection; check local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Consider repair or reuse if the item is safe. Parts, tyres, batteries, and fuel or oil residues may need separate specialist collection; check local instructions."
+      }
+    },
+    "car-parts": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Consider repair or reuse if the item is safe. Parts, tyres, batteries, and fuel or oil residues may need separate specialist collection; check local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Consider repair or reuse if the item is safe. Parts, tyres, batteries, and fuel or oil residues may need separate specialist collection; check local instructions."
+      }
+    },
+    "motorcycle-parts": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Consider repair or reuse if the item is safe. Parts, tyres, batteries, and fuel or oil residues may need separate specialist collection; check local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Consider repair or reuse if the item is safe. Parts, tyres, batteries, and fuel or oil residues may need separate specialist collection; check local instructions."
+      }
+    },
+    "tires": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Consider repair or reuse if the item is safe. Parts, tyres, batteries, and fuel or oil residues may need separate specialist collection; check local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Consider repair or reuse if the item is safe. Parts, tyres, batteries, and fuel or oil residues may need separate specialist collection; check local instructions."
+      }
+    },
+    "bicycle-tires": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Consider repair or reuse if the item is safe. Parts, tyres, batteries, and fuel or oil residues may need separate specialist collection; check local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Consider repair or reuse if the item is safe. Parts, tyres, batteries, and fuel or oil residues may need separate specialist collection; check local instructions."
+      }
+    },
+    "helmets": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Consider repair or reuse if the item is safe. Parts, tyres, batteries, and fuel or oil residues may need separate specialist collection; check local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Consider repair or reuse if the item is safe. Parts, tyres, batteries, and fuel or oil residues may need separate specialist collection; check local instructions."
+      }
+    },
+    "engine-components": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Consider repair or reuse if the item is safe. Parts, tyres, batteries, and fuel or oil residues may need separate specialist collection; check local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Consider repair or reuse if the item is safe. Parts, tyres, batteries, and fuel or oil residues may need separate specialist collection; check local instructions."
+      }
+    },
+    "tools": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Consider repair or reuse if the item is safe. Parts, tyres, batteries, and fuel or oil residues may need separate specialist collection; check local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Consider repair or reuse if the item is safe. Parts, tyres, batteries, and fuel or oil residues may need separate specialist collection; check local instructions."
+      }
+    },
+    "spare-parts": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Consider repair or reuse if the item is safe. Parts, tyres, batteries, and fuel or oil residues may need separate specialist collection; check local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Consider repair or reuse if the item is safe. Parts, tyres, batteries, and fuel or oil residues may need separate specialist collection; check local instructions."
+      }
+    },
+    "vehicle-batteries": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Return the vehicle battery through a battery collection route",
+        "text": "Keep the battery upright and intact; do not drain, dismantle, or place it with metal scrap. Ask the seller, producer, or local authority for a designated battery take-back or collection point. If it is leaking or damaged, avoid contact and ask for specialist handling advice."
+      }
+    },
+    "bicycle-chains": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Consider repair or reuse if the item is safe. Parts, tyres, batteries, and fuel or oil residues may need separate specialist collection; check local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Consider repair or reuse if the item is safe. Parts, tyres, batteries, and fuel or oil residues may need separate specialist collection; check local instructions."
+      }
+    },
+    "bicycle-frames": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Consider repair or reuse if the item is safe. Parts, tyres, batteries, and fuel or oil residues may need separate specialist collection; check local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Consider repair or reuse if the item is safe. Parts, tyres, batteries, and fuel or oil residues may need separate specialist collection; check local instructions."
+      }
+    },
+    "skateboards": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Consider repair or reuse if the item is safe. Parts, tyres, batteries, and fuel or oil residues may need separate specialist collection; check local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Consider repair or reuse if the item is safe. Parts, tyres, batteries, and fuel or oil residues may need separate specialist collection; check local instructions."
+      }
+    },
+    "roller-skates": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Consider repair or reuse if the item is safe. Parts, tyres, batteries, and fuel or oil residues may need separate specialist collection; check local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Consider repair or reuse if the item is safe. Parts, tyres, batteries, and fuel or oil residues may need separate specialist collection; check local instructions."
+      }
+    },
+    "wooden-planks": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse sound materials where safe. Identify treated, coated, sharp, or heavy materials and check local construction-waste instructions before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse sound materials where safe. Identify treated, coated, sharp, or heavy materials and check local construction-waste instructions before disposal."
+      }
+    },
+    "tiles": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse sound materials where safe. Identify treated, coated, sharp, or heavy materials and check local construction-waste instructions before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse sound materials where safe. Identify treated, coated, sharp, or heavy materials and check local construction-waste instructions before disposal."
+      }
+    },
+    "bricks": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse sound materials where safe. Identify treated, coated, sharp, or heavy materials and check local construction-waste instructions before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse sound materials where safe. Identify treated, coated, sharp, or heavy materials and check local construction-waste instructions before disposal."
+      }
+    },
+    "pipes": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse sound materials where safe. Identify treated, coated, sharp, or heavy materials and check local construction-waste instructions before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse sound materials where safe. Identify treated, coated, sharp, or heavy materials and check local construction-waste instructions before disposal."
+      }
+    },
+    "electrical-switches": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse sound materials where safe. Identify treated, coated, sharp, or heavy materials and check local construction-waste instructions before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse sound materials where safe. Identify treated, coated, sharp, or heavy materials and check local construction-waste instructions before disposal."
+      }
+    },
+    "electrical-wires": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse sound materials where safe. Identify treated, coated, sharp, or heavy materials and check local construction-waste instructions before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse sound materials where safe. Identify treated, coated, sharp, or heavy materials and check local construction-waste instructions before disposal."
+      }
+    },
+    "paint-buckets": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse sound materials where safe. Identify treated, coated, sharp, or heavy materials and check local construction-waste instructions before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse sound materials where safe. Identify treated, coated, sharp, or heavy materials and check local construction-waste instructions before disposal."
+      }
+    },
+    "metal-rods": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse sound materials where safe. Identify treated, coated, sharp, or heavy materials and check local construction-waste instructions before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse sound materials where safe. Identify treated, coated, sharp, or heavy materials and check local construction-waste instructions before disposal."
+      }
+    },
+    "cement-bags": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse sound materials where safe. Identify treated, coated, sharp, or heavy materials and check local construction-waste instructions before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse sound materials where safe. Identify treated, coated, sharp, or heavy materials and check local construction-waste instructions before disposal."
+      }
+    },
+    "doors": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse sound materials where safe. Identify treated, coated, sharp, or heavy materials and check local construction-waste instructions before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse sound materials where safe. Identify treated, coated, sharp, or heavy materials and check local construction-waste instructions before disposal."
+      }
+    },
+    "windows": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse sound materials where safe. Identify treated, coated, sharp, or heavy materials and check local construction-waste instructions before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse sound materials where safe. Identify treated, coated, sharp, or heavy materials and check local construction-waste instructions before disposal."
+      }
+    },
+    "sanitary-fixtures": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse sound materials where safe. Identify treated, coated, sharp, or heavy materials and check local construction-waste instructions before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse sound materials where safe. Identify treated, coated, sharp, or heavy materials and check local construction-waste instructions before disposal."
+      }
+    },
+    "wooden-doors": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse sound materials where safe. Identify treated, coated, sharp, or heavy materials and check local construction-waste instructions before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse sound materials where safe. Identify treated, coated, sharp, or heavy materials and check local construction-waste instructions before disposal."
+      }
+    },
+    "cabinet-hardware": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse sound materials where safe. Identify treated, coated, sharp, or heavy materials and check local construction-waste instructions before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse sound materials where safe. Identify treated, coated, sharp, or heavy materials and check local construction-waste instructions before disposal."
+      }
+    },
+    "floor-tiles": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse sound materials where safe. Identify treated, coated, sharp, or heavy materials and check local construction-waste instructions before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse sound materials where safe. Identify treated, coated, sharp, or heavy materials and check local construction-waste instructions before disposal."
+      }
+    },
+    "roofing-materials": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse sound materials where safe. Identify treated, coated, sharp, or heavy materials and check local construction-waste instructions before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse sound materials where safe. Identify treated, coated, sharp, or heavy materials and check local construction-waste instructions before disposal."
+      }
+    },
+    "pens": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse, repair, or pass on clean items that remain useful. Separate electronic equipment and check local collection rules for mixed-material or damaged supplies."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse, repair, or pass on clean items that remain useful. Separate electronic equipment and check local collection rules for mixed-material or damaged supplies."
+      }
+    },
+    "pencils": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse, repair, or pass on clean items that remain useful. Separate electronic equipment and check local collection rules for mixed-material or damaged supplies."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse, repair, or pass on clean items that remain useful. Separate electronic equipment and check local collection rules for mixed-material or damaged supplies."
+      }
+    },
+    "erasers": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse, repair, or pass on clean items that remain useful. Separate electronic equipment and check local collection rules for mixed-material or damaged supplies."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse, repair, or pass on clean items that remain useful. Separate electronic equipment and check local collection rules for mixed-material or damaged supplies."
+      }
+    },
+    "rulers": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse, repair, or pass on clean items that remain useful. Separate electronic equipment and check local collection rules for mixed-material or damaged supplies."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse, repair, or pass on clean items that remain useful. Separate electronic equipment and check local collection rules for mixed-material or damaged supplies."
+      }
+    },
+    "pencil-boxes": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse, repair, or pass on clean items that remain useful. Separate electronic equipment and check local collection rules for mixed-material or damaged supplies."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse, repair, or pass on clean items that remain useful. Separate electronic equipment and check local collection rules for mixed-material or damaged supplies."
+      }
+    },
+    "office-folders": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse, repair, or pass on clean items that remain useful. Separate electronic equipment and check local collection rules for mixed-material or damaged supplies."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse, repair, or pass on clean items that remain useful. Separate electronic equipment and check local collection rules for mixed-material or damaged supplies."
+      }
+    },
+    "files-and-binders": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse, repair, or pass on clean items that remain useful. Separate electronic equipment and check local collection rules for mixed-material or damaged supplies."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse, repair, or pass on clean items that remain useful. Separate electronic equipment and check local collection rules for mixed-material or damaged supplies."
+      }
+    },
+    "staplers": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse, repair, or pass on clean items that remain useful. Separate electronic equipment and check local collection rules for mixed-material or damaged supplies."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse, repair, or pass on clean items that remain useful. Separate electronic equipment and check local collection rules for mixed-material or damaged supplies."
+      }
+    },
+    "whiteboards": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse, repair, or pass on clean items that remain useful. Separate electronic equipment and check local collection rules for mixed-material or damaged supplies."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse, repair, or pass on clean items that remain useful. Separate electronic equipment and check local collection rules for mixed-material or damaged supplies."
+      }
+    },
+    "art-supplies": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse, repair, or pass on clean items that remain useful. Separate electronic equipment and check local collection rules for mixed-material or damaged supplies."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse, repair, or pass on clean items that remain useful. Separate electronic equipment and check local collection rules for mixed-material or damaged supplies."
+      }
+    },
+    "lunch-boxes": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse clean, safe items where practical. Separate electrical appliances and check local rules for the item's material, food residue, and collection route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse clean, safe items where practical. Separate electrical appliances and check local rules for the item's material, food residue, and collection route."
+      }
+    },
+    "steel-containers": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse clean, safe items where practical. Separate electrical appliances and check local rules for the item's material, food residue, and collection route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse clean, safe items where practical. Separate electrical appliances and check local rules for the item's material, food residue, and collection route."
+      }
+    },
+    "cooking-pots": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse clean, safe items where practical. Separate electrical appliances and check local rules for the item's material, food residue, and collection route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse clean, safe items where practical. Separate electrical appliances and check local rules for the item's material, food residue, and collection route."
+      }
+    },
+    "pans": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse clean, safe items where practical. Separate electrical appliances and check local rules for the item's material, food residue, and collection route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse clean, safe items where practical. Separate electrical appliances and check local rules for the item's material, food residue, and collection route."
+      }
+    },
+    "pressure-cookers": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse clean, safe items where practical. Separate electrical appliances and check local rules for the item's material, food residue, and collection route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse clean, safe items where practical. Separate electrical appliances and check local rules for the item's material, food residue, and collection route."
+      }
+    },
+    "cutlery": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse clean, safe items where practical. Separate electrical appliances and check local rules for the item's material, food residue, and collection route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse clean, safe items where practical. Separate electrical appliances and check local rules for the item's material, food residue, and collection route."
+      }
+    },
+    "plates": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse clean, safe items where practical. Separate electrical appliances and check local rules for the item's material, food residue, and collection route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse clean, safe items where practical. Separate electrical appliances and check local rules for the item's material, food residue, and collection route."
+      }
+    },
+    "cups": {
+      "reuse": [
+        {
+          "title": "Reuse a durable cup if safe",
+          "text": "A clean, intact cup designed for repeated use can stay in service. Avoid reusing a single-use cup for food or drink beyond its intended use."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the cup and its material",
+        "text": "Cups can be made from several materials and may have coatings or food residue. Choose the material you know and check local collection instructions."
+      }
+    },
+    "spice-jars": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse clean, safe items where practical. Separate electrical appliances and check local rules for the item's material, food residue, and collection route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse clean, safe items where practical. Separate electrical appliances and check local rules for the item's material, food residue, and collection route."
+      }
+    },
+    "coffee-makers": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse clean, safe items where practical. Separate electrical appliances and check local rules for the item's material, food residue, and collection route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse clean, safe items where practical. Separate electrical appliances and check local rules for the item's material, food residue, and collection route."
+      }
+    },
+    "blenders": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse clean, safe items where practical. Separate electrical appliances and check local rules for the item's material, food residue, and collection route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse clean, safe items where practical. Separate electrical appliances and check local rules for the item's material, food residue, and collection route."
+      }
+    },
+    "juicers": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse clean, safe items where practical. Separate electrical appliances and check local rules for the item's material, food residue, and collection route."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse clean, safe items where practical. Separate electrical appliances and check local rules for the item's material, food residue, and collection route."
+      }
+    },
+    "batteries": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Use a battery collection route",
+        "text": "Keep spent batteries separate from ordinary waste and dry recyclables. Keep their contacts from touching metal or each other, and ask the seller, producer, or local authority for a battery take-back or designated collection point. Do not open, crush, or burn them. If swollen, leaking, or hot, avoid handling and seek local hazardous-waste guidance."
+      }
+    },
+    "fluorescent-lamps": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Keep fluorescent lamps intact for special collection",
+        "text": "Fluorescent lamps can contain mercury. Do not break them or mix them with ordinary glass. Store an intact lamp safely and ask your local authority or a designated collection point how to hand it over. If one breaks, avoid spreading the debris and follow local cleanup guidance."
+      }
+    },
+    "led-bulbs": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Use a separate collection point for LED bulbs",
+        "text": "Keep the bulb intact and out of ordinary glass recycling. Ask your local authority or an electrical retailer whether it accepts LED lamps through an e-waste or special-care collection route."
+      }
+    },
+    "paint-containers": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "This item may require a designated collection route. Keep it away from ordinary recycling until you have checked local instructions; do not dismantle or mix contents."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "This item may require a designated collection route. Keep it away from ordinary recycling until you have checked local instructions; do not dismantle or mix contents."
+      }
+    },
+    "chemical-containers": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "This item may require a designated collection route. Keep it away from ordinary recycling until you have checked local instructions; do not dismantle or mix contents."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "This item may require a designated collection route. Keep it away from ordinary recycling until you have checked local instructions; do not dismantle or mix contents."
+      }
+    },
+    "medical-equipment": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "This item may require a designated collection route. Keep it away from ordinary recycling until you have checked local instructions; do not dismantle or mix contents."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "This item may require a designated collection route. Keep it away from ordinary recycling until you have checked local instructions; do not dismantle or mix contents."
+      }
+    },
+    "medicines": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "This item may require a designated collection route. Keep it away from ordinary recycling until you have checked local instructions; do not dismantle or mix contents."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "This item may require a designated collection route. Keep it away from ordinary recycling until you have checked local instructions; do not dismantle or mix contents."
+      }
+    },
+    "thermometers": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "This item may require a designated collection route. Keep it away from ordinary recycling until you have checked local instructions; do not dismantle or mix contents."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "This item may require a designated collection route. Keep it away from ordinary recycling until you have checked local instructions; do not dismantle or mix contents."
+      }
+    },
+    "ink-cartridges": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "This item may require a designated collection route. Keep it away from ordinary recycling until you have checked local instructions; do not dismantle or mix contents."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "This item may require a designated collection route. Keep it away from ordinary recycling until you have checked local instructions; do not dismantle or mix contents."
+      }
+    },
+    "toner-cartridges": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "This item may require a designated collection route. Keep it away from ordinary recycling until you have checked local instructions; do not dismantle or mix contents."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "This item may require a designated collection route. Keep it away from ordinary recycling until you have checked local instructions; do not dismantle or mix contents."
+      }
+    },
+    "gas-cylinders": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "This item may require a designated collection route. Keep it away from ordinary recycling until you have checked local instructions; do not dismantle or mix contents."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "This item may require a designated collection route. Keep it away from ordinary recycling until you have checked local instructions; do not dismantle or mix contents."
+      }
+    },
+    "unidentified-item": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Use this broad label when no more specific option fits. Add a material or property if known, then check local instructions for the exact item before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Use this broad label when no more specific option fits. Add a material or property if known, then check local instructions for the exact item before disposal."
+      }
+    },
+    "light-bulbs": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Identify the bulb before disposal",
+        "text": "Choose Fluorescent Lamps or LED Bulbs if you know which it is. Keep it intact and out of ordinary glass recycling while you ask your local authority for its lamp or special-care collection route."
+      }
+    },
+    "microwaves": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+      }
+    },
+    "electric-kettles": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Check whether the item is safe and working before considering reuse or donation. For a broken or unwanted electrical item, use a designated e-waste route and follow local instructions."
+      }
+    },
+    "notebooks": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "Reuse clean items where practical. Keep paper and cardboard dry, and check local collection rules for coatings, bindings, food residue, or mixed materials."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "Reuse clean items where practical. Keep paper and cardboard dry, and check local collection rules for coatings, bindings, food residue, or mixed materials."
+      }
+    },
+    "chairs": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+      }
+    },
+    "tables": {
+      "reuse": [
+        {
+          "title": "Consider reuse if it is safe",
+          "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the item-specific route",
+        "text": "If stable, clean, and safe, consider repair or reuse. For unwanted bulky items, check local collection arrangements and identify mixed materials before disposal."
+      }
+    },
+    "fans": {
+      "reuse": [
+        {
+          "title": "Repair or reuse if safe",
+          "text": "A working appliance may be useful to someone else. Do not reuse one with damaged wiring or unsafe operation."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check appliance e-waste collection",
+        "text": "Ask a local e-waste service whether it accepts this exact appliance. Remove loose batteries only if the product instructions say this is safe."
+      }
+    },
+    "toasters": {
+      "reuse": [
+        {
+          "title": "Repair or reuse if safe",
+          "text": "A working appliance may be useful to someone else. Do not reuse one with damaged wiring or unsafe operation."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check appliance e-waste collection",
+        "text": "Ask a local e-waste service whether it accepts this exact appliance. Remove loose batteries only if the product instructions say this is safe."
+      }
+    },
+    "mailing-bags": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Empty the packaging and check its material, coatings, and residue. Ask your local collector whether this form is accepted."
+      }
+    },
+    "bubble-wrap": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Empty the packaging and check its material, coatings, and residue. Ask your local collector whether this form is accepted."
+      }
+    },
+    "air-pillows": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Empty the packaging and check its material, coatings, and residue. Ask your local collector whether this form is accepted."
+      }
+    },
+    "padded-envelopes": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Empty the packaging and check its material, coatings, and residue. Ask your local collector whether this form is accepted."
+      }
+    },
+    "packing-foam": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Empty the packaging and check its material, coatings, and residue. Ask your local collector whether this form is accepted."
+      }
+    },
+    "receipts": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Keep clean paper separate from wet waste. Coatings, thermal paper, and food or bodily contamination can change the collection route; check local rules."
+      }
+    },
+    "tickets": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Keep clean paper separate from wet waste. Coatings, thermal paper, and food or bodily contamination can change the collection route; check local rules."
+      }
+    },
+    "loose-paper": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Keep clean paper separate from wet waste. Coatings, thermal paper, and food or bodily contamination can change the collection route; check local rules."
+      }
+    },
+    "tissues": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Used tissues may be contaminated. Do not assume they belong with clean paper recycling; check local disposal instructions."
+      }
+    },
+    "paper-towels": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Used paper towels may be contaminated or greasy. Check local disposal instructions instead of assuming clean paper collection accepts them."
+      }
+    },
+    "paper-tubes": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Keep clean paper separate from wet waste. Coatings, thermal paper, and food or bodily contamination can change the collection route; check local rules."
+      }
+    },
+    "hangers": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "A clean, usable item may be repaired, reused, or passed on after checking its condition."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Reuse or repair a sound item where practical. For damaged or bulky items, identify the materials and ask about local collection."
+      }
+    },
+    "basins": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "A clean, usable item may be repaired, reused, or passed on after checking its condition."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Reuse or repair a sound item where practical. For damaged or bulky items, identify the materials and ask about local collection."
+      }
+    },
+    "plant-pots": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "A clean, usable item may be repaired, reused, or passed on after checking its condition."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Reuse or repair a sound item where practical. For damaged or bulky items, identify the materials and ask about local collection."
+      }
+    },
+    "vases": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "A clean, usable item may be repaired, reused, or passed on after checking its condition."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Reuse or repair a sound item where practical. For damaged or bulky items, identify the materials and ask about local collection."
+      }
+    },
+    "bowls": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "A clean, usable item may be repaired, reused, or passed on after checking its condition."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Reuse only if clean and safe. Check the material and any food residue before choosing a local collection route."
+      }
+    },
+    "toothbrushes": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Reuse a clean, safe item where practical. Identify its materials and check the appropriate local collection route."
+      }
+    },
+    "combs": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "A clean, usable item may be repaired, reused, or passed on after checking its condition."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Reuse a clean, safe item where practical. Identify its materials and check the appropriate local collection route."
+      }
+    },
+    "markers": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "A clean, usable item may be repaired, reused, or passed on after checking its condition."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Reuse a sound item where practical. Check its materials and local collection options before disposal."
+      }
+    },
+    "computer-parts": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "A clean, usable item may be repaired, reused, or passed on after checking its condition."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Use an authorised e-waste collector or producer take-back route. Check for data-bearing components before passing the item on."
+      }
+    },
+    "circuit-boards": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Use an authorised e-waste collection route. Do not burn or dismantle circuit boards to recover materials."
+      }
+    },
+    "power-adapters": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "A clean, usable item may be repaired, reused, or passed on after checking its condition."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Use an authorised e-waste collection or producer take-back route for an unwanted electrical item. Handle any battery separately as instructed."
+      }
+    },
+    "pillowcases": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "A clean, usable item may be repaired, reused, or passed on after checking its condition."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Reuse or repair clean textiles where practical. Ask about local textile collection for damaged or unsuitable items."
+      }
+    },
+    "pillows": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "A clean, usable item may be repaired, reused, or passed on after checking its condition."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Reuse or repair a sound item where practical. For damaged or bulky items, identify the materials and ask about local collection."
+      }
+    },
+    "cushions": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "A clean, usable item may be repaired, reused, or passed on after checking its condition."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Reuse or repair a sound item where practical. For damaged or bulky items, identify the materials and ask about local collection."
+      }
+    },
+    "mats": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "A clean, usable item may be repaired, reused, or passed on after checking its condition."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Reuse or repair a sound item where practical. For damaged or bulky items, identify the materials and ask about local collection."
+      }
+    },
+    "stools": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "A clean, usable item may be repaired, reused, or passed on after checking its condition."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Reuse or repair a sound item where practical. For damaged or bulky items, identify the materials and ask about local collection."
+      }
+    },
+    "shelves": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "A clean, usable item may be repaired, reused, or passed on after checking its condition."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Reuse or repair a sound item where practical. For damaged or bulky items, identify the materials and ask about local collection."
+      }
+    },
+    "drawers": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "A clean, usable item may be repaired, reused, or passed on after checking its condition."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Reuse or repair a sound item where practical. For damaged or bulky items, identify the materials and ask about local collection."
+      }
+    },
+    "handbags": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "A clean, usable item may be repaired, reused, or passed on after checking its condition."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Reuse or repair clean textiles where practical. Ask about local textile collection for damaged or unsuitable items."
+      }
+    },
+    "slippers": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "A clean, usable item may be repaired, reused, or passed on after checking its condition."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Reuse or repair clean textiles where practical. Ask about local textile collection for damaged or unsuitable items."
+      }
+    },
+    "banners": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "A clean, usable item may be repaired, reused, or passed on after checking its condition."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Reuse or repair clean textiles where practical. Ask about local textile collection for damaged or unsuitable items."
+      }
+    },
+    "eggshells": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Keep suitable plant or food waste separate from dry waste. Compost where appropriate or follow local wet-waste and garden-waste collection rules."
+      }
+    },
+    "tea-leaves": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Keep suitable plant or food waste separate from dry waste. Compost where appropriate or follow local wet-waste and garden-waste collection rules."
+      }
+    },
+    "coffee-grounds": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Keep suitable plant or food waste separate from dry waste. Compost where appropriate or follow local wet-waste and garden-waste collection rules."
+      }
+    },
+    "grass-clippings": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Keep suitable plant or food waste separate from dry waste. Compost where appropriate or follow local wet-waste and garden-waste collection rules."
+      }
+    },
+    "flowers": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Keep suitable plant or food waste separate from dry waste. Compost where appropriate or follow local wet-waste and garden-waste collection rules."
+      }
+    },
+    "small-branches": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Keep suitable plant or food waste separate from dry waste. Compost where appropriate or follow local wet-waste and garden-waste collection rules."
+      }
+    },
+    "toothpaste-tubes": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Reuse a clean, safe item where practical. Identify its materials and check the appropriate local collection route."
+      }
+    },
+    "cleaning-cloths": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "A clean, usable item may be repaired, reused, or passed on after checking its condition."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Reuse or repair clean textiles where practical. Ask about local textile collection for damaged or unsuitable items."
+      }
+    },
+    "sponges": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Reuse only if clean and safe. Check the material and any food residue before choosing a local collection route."
+      }
+    },
+    "aerosol-cans": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Do not puncture or heat a pressurised can. Check whether your local service accepts it empty or requires special collection."
+      }
+    },
+    "sports-balls": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "A clean, usable item may be repaired, reused, or passed on after checking its condition."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Pass on a clean, complete, safe item if usable. Check local options for damaged or mixed-material items."
+      }
+    },
+    "umbrellas": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "A clean, usable item may be repaired, reused, or passed on after checking its condition."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Reuse a clean, safe item where practical. Identify its materials and check the appropriate local collection route."
+      }
+    },
+    "ropes-and-cords": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "A clean, usable item may be repaired, reused, or passed on after checking its condition."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Reuse a clean, safe item where practical. Identify its materials and check the appropriate local collection route."
+      }
+    },
+    "disposable-diapers": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Keep used diapers contained and follow local sanitary-waste collection instructions. Do not put them with dry recyclables."
+      }
+    },
+    "sanitary-pads": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Keep used pads contained and follow local sanitary-waste collection instructions. Do not put them with dry recyclables."
+      }
+    },
+    "face-masks": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Keep used masks contained and follow local disposal instructions. Do not put them with clean dry recyclables."
+      }
+    },
+    "disposable-razors": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Protect handlers from the blade. Follow local sharps or safe disposal instructions; do not place loose blades in recycling."
+      }
+    },
+    "cigarette-butts": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Make sure the butt is fully extinguished. Do not mix it with clean paper or plastic recycling; follow local residual-waste instructions."
+      }
+    },
+    "broken-glass": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Protect handlers from sharp edges and check local instructions. Broken glass may need a different route from intact glass containers."
+      }
+    },
+    "medicine-blister-packs": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Check local handling for medicine packaging and keep any remaining medicine separate for appropriate collection."
+      }
+    },
+    "used-cooking-oil": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Keep used cooking oil in a closed container. Ask about local oil collection; do not pour it into drains."
+      }
+    },
+    "food-wrappers": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Empty the packaging and check its material, coatings, and residue. Ask your local collector whether this form is accepted."
+      }
+    },
+    "straws": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Reuse only if clean and safe. Check the material and any food residue before choosing a local collection route."
+      }
+    },
+    "tea-bags": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Some tea bags contain mixed materials. Check the bag material before composting; loose tea leaves can follow suitable food-waste guidance."
+      }
+    },
+    "wet-wipes": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Do not flush used wipes. Keep them out of clean paper recycling and follow local residual or sanitary-waste instructions."
+      }
+    },
+    "cotton-swabs": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Keep used swabs contained and follow local residual or sanitary-waste instructions. Do not put them with clean dry recyclables."
+      }
+    },
+    "cotton-pads": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Keep used pads contained and follow local residual or sanitary-waste instructions. Do not put them with clean dry recyclables."
+      }
+    },
+    "disposable-gloves": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Keep used gloves contained and follow local disposal instructions, especially if they contacted chemicals or bodily fluids."
+      }
+    },
+    "pet-waste": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the appropriate collection route",
+        "text": "Keep pet waste contained and follow local disposal instructions. Do not add it to ordinary food-waste compost without a dedicated safe process."
+      }
+    },
+    "bottles": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "If it is clean, safe, and suitable for another use, consider using it again."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the material and local collection rules",
+        "text": "Choose the material if you know it, check for residue or mixed parts, and follow local collection instructions."
+      }
+    },
+    "cans": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "If it is clean, safe, and suitable for another use, consider using it again."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the material and local collection rules",
+        "text": "Choose the material if you know it, check for residue or mixed parts, and follow local collection instructions."
+      }
+    },
+    "boxes": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "If it is clean, safe, and suitable for another use, consider using it again."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the material and local collection rules",
+        "text": "Choose the material if you know it, check for residue or mixed parts, and follow local collection instructions."
+      }
+    },
+    "bags": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "If it is clean, safe, and suitable for another use, consider using it again."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the material and local collection rules",
+        "text": "Choose the material if you know it, check for residue or mixed parts, and follow local collection instructions."
+      }
+    },
+    "wrappers-and-film": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "If it is clean, safe, and suitable for another use, consider using it again."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the material and local collection rules",
+        "text": "Choose the material if you know it, check for residue or mixed parts, and follow local collection instructions."
+      }
+    },
+    "buckets": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "If it is clean, safe, and suitable for another use, consider using it again."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the material and local collection rules",
+        "text": "Choose the material if you know it, check for residue or mixed parts, and follow local collection instructions."
+      }
+    },
+    "crates": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "If it is clean, safe, and suitable for another use, consider using it again."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the material and local collection rules",
+        "text": "Choose the material if you know it, check for residue or mixed parts, and follow local collection instructions."
+      }
+    },
+    "bottle-caps": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "If it is clean, safe, and suitable for another use, consider using it again."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the material and local collection rules",
+        "text": "Choose the material if you know it, check for residue or mixed parts, and follow local collection instructions."
+      }
+    },
+    "wires": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "If it is clean, safe, and suitable for another use, consider using it again."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the material and local collection rules",
+        "text": "Choose the material if you know it, check for residue or mixed parts, and follow local collection instructions."
+      }
+    },
+    "foil": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "If it is clean, safe, and suitable for another use, consider using it again."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the material and local collection rules",
+        "text": "Choose the material if you know it, check for residue or mixed parts, and follow local collection instructions."
+      }
+    },
+    "planks": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "If it is clean, safe, and suitable for another use, consider using it again."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the material and local collection rules",
+        "text": "Choose the material if you know it, check for residue or mixed parts, and follow local collection instructions."
+      }
+    },
+    "rods": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "If it is clean, safe, and suitable for another use, consider using it again."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the material and local collection rules",
+        "text": "Choose the material if you know it, check for residue or mixed parts, and follow local collection instructions."
+      }
+    },
+    "tubes": {
+      "reuse": [
+        {
+          "title": "Consider safe reuse",
+          "text": "If it is clean, safe, and suitable for another use, consider using it again."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check the material and local collection rules",
+        "text": "Choose the material if you know it, check for residue or mixed parts, and follow local collection instructions."
+      }
+    }
+  },
+  "materials": {
+    "paper": {
+      "reuse": [
+        {
+          "title": "Use clean sheets again",
+          "text": "Use blank sides for notes or crafts when practical."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check paper collection",
+        "text": "Keep paper clean and dry when possible. Ask your local collector about coated or food-soiled paper."
+      }
+    },
+    "cardboard": {
+      "reuse": [
+        {
+          "title": "Reuse sturdy cardboard",
+          "text": "Use clean boxes or sheets for storage and packing."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check cardboard collection",
+        "text": "Flatten dry cardboard if requested locally. Ask about greasy or heavily soiled pieces."
+      }
+    },
+    "glass": {
+      "reuse": [
+        {
+          "title": "Reuse intact glass",
+          "text": "Clean, unbroken containers may be useful again for appropriate storage."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Identify the glass item",
+        "text": "Bottles, window glass, and cookware may have different collection rules. Check local acceptance for the exact item."
+      }
+    },
+    "metal": {
+      "reuse": [
+        {
+          "title": "Keep usable metal items",
+          "text": "Repair or repurpose a safe, usable item where practical."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check metal collection",
+        "text": "Collection depends on the item, its size, and any coatings or contents. Check local instructions."
+      }
+    },
+    "iron-steel": {
+      "reuse": [
+        {
+          "title": "Keep sound iron or steel in use",
+          "text": "Repair or repurpose a safe, sturdy item if practical."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check ferrous metal collection",
+        "text": "Ask a local scrap or recycling service whether it accepts this iron or steel item. Paint, coatings, and attached materials may change the route."
+      }
+    },
+    "aluminium": {
+      "reuse": [
+        {
+          "title": "Reuse sound aluminium items",
+          "text": "Keep a safe, usable item in service or repurpose it where practical."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check aluminium collection",
+        "text": "Ask a local collector whether it accepts this form of aluminium. Empty containers and check for coatings or attached materials."
+      }
+    },
+    "plastic": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Identify the specific plastic item",
+        "text": "Plastic recycling acceptance varies by item, resin, contamination, and local rules. Identify the item and check local instructions."
+      }
+    },
+    "electronics": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Use electronics disposal guidance",
+        "text": "Electronic items often need a designated collection route. Check local instructions for the specific item."
+      }
+    },
+    "textile": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check textile collection options",
+        "text": "Textile collection rules vary. Check local guidance for the specific item and its condition."
+      }
+    },
+    "organic": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check local organic-waste rules",
+        "text": "Composting and food-waste programs accept different materials. Check the rules for your area."
+      }
+    },
+    "wood": {
+      "reuse": [
+        {
+          "title": "Reuse safe timber",
+          "text": "Clean, sound wood may be used for repair or small projects."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Identify treated or painted wood",
+        "text": "Untreated, painted, and chemically treated wood can need different handling. Check local collection instructions for the exact item."
+      }
+    },
+    "rubber": {
+      "reuse": [
+        {
+          "title": "Repair or repurpose if safe",
+          "text": "A reusable rubber item may be repaired or used again depending on its condition."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Find an item-specific route",
+        "text": "Rubber items vary widely. Identify the item, such as footwear or a tyre, before checking local collection options."
+      }
+    },
+    "ceramic": {
+      "reuse": [
+        {
+          "title": "Repair or repurpose intact pieces",
+          "text": "A sound ceramic item may still be useful for its original purpose or as a planter."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check ceramic disposal",
+        "text": "Ceramics are not the same as bottle glass. Ask your local collector how to handle broken pottery or crockery, and protect anyone handling sharp pieces."
+      }
+    },
+    "leather": {
+      "reuse": [
+        {
+          "title": "Repair or reuse leather",
+          "text": "A usable leather item may be cleaned, repaired, or passed on if appropriate."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check leather collection",
+        "text": "Leather is not automatically accepted with fabric or paper. Ask a local collector about the specific item and any synthetic layers or coatings."
+      }
+    },
+    "copper": {
+      "reuse": [
+        {
+          "title": "Reuse sound copper items",
+          "text": "Keep a safe, usable copper item in service or repurpose it where practical."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check copper collection",
+        "text": "Clean, identifiable copper may have a material-specific scrap route. Ask a local collector what forms and attached components it accepts."
+      }
+    },
+    "brass": {
+      "reuse": [
+        {
+          "title": "Reuse sound brass items",
+          "text": "Keep a safe, usable brass item in service or repurpose it where practical."
+        }
+      ],
+      "recycleOrDispose": {
+        "title": "Check brass collection",
+        "text": "Identify brass items and ask a local scrap or recycling service whether it accepts this form, including any coatings or attached materials."
+      }
+    },
+    "mixed-waste": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Separate what you can identify",
+        "text": "Avoid treating mixed waste as one recyclable material. Identify and separate reusable items, dry recyclables, organic waste, and anything needing special handling, then follow local collection instructions."
+      }
+    }
+  },
+  "properties": {
+    "biodegradable": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check composting conditions",
+        "text": "Biodegradable does not always mean suitable for home composting. Check the product and local program instructions."
+      }
+    },
+    "non-biodegradable": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Choose a route by material",
+        "text": "Do not put this item in compost based on its appearance. Identify its material and check the local reuse, recycling, or disposal route."
+      }
+    },
+    "compostable": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the composting label",
+        "text": "Check what conditions the product requires and whether your home system or local collection accepts it. A compostable label does not guarantee acceptance everywhere."
+      }
+    },
+    "hazardous": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check special handling guidance",
+        "text": "Do not assume potentially hazardous items belong in ordinary recycling or household waste. Follow local instructions for the specific material."
+      }
+    },
+    "residue": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Check the previous contents",
+        "text": "Do not assume a container with oil or chemical residue can enter ordinary recycling. Follow local handling instructions for the substance it held."
+      }
+    },
+    "sharp-or-broken": {
+      "reuse": [],
+      "recycleOrDispose": {
+        "title": "Protect people handling broken pieces",
+        "text": "Keep sharp or broken pieces contained so nobody is cut. Check local instructions before placing them in any recycling or waste collection."
+      }
+    }
+  },
+  "areas": {
+    "in": {
+      "items": {
+        "television": {
+          "title": "Use an e-waste collection route",
+          "text": "Televisions are listed under India's E-Waste (Management) Rules. Ask the producer about take-back or contact a registered producer, refurbisher, or recycler for collection options. Confirm what is available in your city.",
+          "sources": [
+            {
+              "title": "E-Waste (Management) Rules, 2022 — Schedule I",
+              "url": "https://moef.gov.in/uploads/2022/11/E-Waste-Management-Rules-2022.pdf",
+              "reviewedAt": "2026-10-08"
+            },
+            {
+              "title": "CPCB E-Waste FAQ",
+              "url": "https://cpcb.gov.in/uploads/Projects/E-Waste/FAQ_ewaste_23012024.pdf",
+              "reviewedAt": "2026-10-08"
+            }
+          ]
+        },
+        "air-conditioner": {
+          "title": "Use an e-waste collection route",
+          "text": "Air conditioners, excluding centralised plants, are listed under India's E-Waste (Management) Rules. Ask the producer about take-back or contact a registered producer, refurbisher, or recycler for handling and collection options. Do not dismantle the unit yourself.",
+          "sources": [
+            {
+              "title": "E-Waste (Management) Rules, 2022 — Schedule I",
+              "url": "https://moef.gov.in/uploads/2022/11/E-Waste-Management-Rules-2022.pdf",
+              "reviewedAt": "2026-10-08"
+            },
+            {
+              "title": "CPCB E-Waste FAQ",
+              "url": "https://cpcb.gov.in/uploads/Projects/E-Waste/FAQ_ewaste_23012024.pdf",
+              "reviewedAt": "2026-10-08"
+            }
+          ]
+        },
+        "food-scraps": {
+          "title": "Separate food scraps as wet waste",
+          "text": "Keep food scraps out of dry recycling. Compost suitable scraps at home or use your local wet-waste collection; ask the collector how it handles cooked food and animal products.",
+          "sources": [{
+            "title": "Solid Waste Management Rules, 2026 — source segregation",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219676&lang=2&reg=48",
+            "reviewedAt": "2026-10-11"
+          }]
+        },
+        "fruit-vegetable-peels": {
+          "title": "Put peels in the wet-waste stream",
+          "text": "Keep fruit and vegetable peels separate from dry recyclables. Compost them if your setup accepts them, or give them to your local wet-waste collection.",
+          "sources": [{
+            "title": "Solid Waste Management Rules, 2026 — wet waste",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219676&lang=2&reg=48",
+            "reviewedAt": "2026-10-11"
+          }]
+        },
+        "garden-trimmings": {
+          "title": "Keep plant trimmings apart from dry recycling",
+          "text": "Compost suitable leaves and small trimmings or ask your local collector about garden-waste collection. Check how it handles large branches.",
+          "sources": [{
+            "title": "Solid Waste Management Rules, 2026 — wet waste and processing",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219676&lang=2&reg=48",
+            "reviewedAt": "2026-10-11"
+          }]
+        },
+        "batteries": {
+          "title": "Use a separate battery collection route",
+          "text": "Keep spent batteries out of ordinary dry recycling. Ask the seller, producer, or local authority for a designated take-back or collection point; do not open or burn them.",
+          "sources": [{
+            "title": "Battery Waste Management Rules, 2022",
+            "url": "https://moef.gov.in/uploads/pdf-uploads/pdf_676567459cdfe9.16099796.pdf",
+            "reviewedAt": "2026-10-11"
+          }]
+        },
+        "vehicle-batteries": {
+          "title": "Return a vehicle battery separately",
+          "text": "Do not mix a vehicle battery with metal scrap or ordinary waste. Ask the seller, producer, or local authority for a battery take-back or designated collection point; request specialist help if it is leaking.",
+          "sources": [{
+            "title": "Battery Waste Management Rules, 2022",
+            "url": "https://moef.gov.in/uploads/pdf-uploads/pdf_676567459cdfe9.16099796.pdf",
+            "reviewedAt": "2026-10-11"
+          }]
+        },
+        "power-banks": {
+          "title": "Use separate collection for a power bank",
+          "text": "Power banks contain a battery. Do not dismantle or put one in ordinary dry recycling. Ask the producer or a designated battery or e-waste collector for the local handover route.",
+          "sources": [{
+            "title": "Battery Waste Management Rules, 2022",
+            "url": "https://moef.gov.in/uploads/pdf-uploads/pdf_676567459cdfe9.16099796.pdf",
+            "reviewedAt": "2026-10-11"
+          }]
+        },
+        "fluorescent-lamps": {
+          "title": "Keep fluorescent lamps for special-care collection",
+          "text": "Keep the lamp intact and out of ordinary glass or dry recycling. Ask your local authority for a designated special-care or lamp collection point.",
+          "sources": [{
+            "title": "Solid Waste Management Rules, 2026 — special-care waste",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219676&lang=2&reg=48",
+            "reviewedAt": "2026-10-11"
+          }]
+        },
+        "led-bulbs": {
+          "title": "Keep LED bulbs out of ordinary glass recycling",
+          "text": "Ask your local authority or electrical retailer for a designated lamp or special-care collection route. Do not break the bulb to separate its materials.",
+          "sources": [{
+            "title": "Solid Waste Management Rules, 2026 — special-care waste",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219676&lang=2&reg=48",
+            "reviewedAt": "2026-10-11"
+          }]
+        },
+        "mobile-phone": {
+          "title": "Use an e-waste collection route",
+          "text": "Mobile phones are listed under India's E-Waste (Management) Rules. Back up and erase personal data, then ask the producer or a registered e-waste service how to hand over the phone.",
+          "sources": [{
+            "title": "E-Waste (Management) Rules, 2022 — Schedule I",
+            "url": "https://moef.gov.in/uploads/2022/11/E-Waste-Management-Rules-2022.pdf",
+            "reviewedAt": "2026-10-11"
+          }]
+        },
+        "laptop": {
+          "title": "Use an e-waste collection route",
+          "text": "Laptops and computers are listed under India's E-Waste (Management) Rules. Back up and erase personal data, then check producer take-back or a registered e-waste service; do not dismantle the device yourself.",
+          "sources": [{
+            "title": "E-Waste (Management) Rules, 2022 — Schedule I",
+            "url": "https://moef.gov.in/uploads/2022/11/E-Waste-Management-Rules-2022.pdf",
+            "reviewedAt": "2026-10-11"
+          }]
+        },
+        "computer-mouse": {
+          "title": "Use an e-waste collection route for the mouse",
+          "text": "Keep the mouse out of ordinary dry recycling. Ask the producer or a registered e-waste service how to hand it over. If it has a removable battery, follow the product instructions and use the separate battery collection route.",
+          "sources": [{
+            "title": "E-Waste (Management) Rules, 2022 — scope and Schedule I",
+            "url": "https://moef.gov.in/uploads/2022/11/E-Waste-Management-Rules-2022.pdf",
+            "reviewedAt": "2026-10-11"
+          }]
+        }
+      },
+      "materials": {
+        "paper": {
+          "title": "Separate paper from wet waste",
+          "text": "Keep ordinary paper dry and separate for the dry-waste stream. Ask your local collector whether it accepts this particular paper product, especially if coated, used, or heavily soiled.",
+          "sources": [{
+            "title": "Solid Waste Management Rules, 2026 — dry waste",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219676&lang=2&reg=48",
+            "reviewedAt": "2026-10-11"
+          }]
+        },
+        "cardboard": {
+          "title": "Keep ordinary cardboard dry",
+          "text": "Separate clean, dry cardboard from wet waste and flatten it if your collector asks. Check local acceptance for coated or dirty cardboard.",
+          "sources": [{
+            "title": "Solid Waste Management Rules, 2026 — dry waste",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219676&lang=2&reg=48",
+            "reviewedAt": "2026-10-11"
+          }]
+        },
+        "glass": {
+          "title": "Keep ordinary glass separate from wet waste",
+          "text": "Ask your local collector whether it accepts this form of glass in its dry-waste or glass collection. Bottles, mirrors, cookware, and broken glass can have different routes.",
+          "sources": [{
+            "title": "Solid Waste Management Rules, 2026 — dry waste",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219676&lang=2&reg=48",
+            "reviewedAt": "2026-10-11"
+          }]
+        },
+        "metal": {
+          "title": "Separate ordinary metal items",
+          "text": "Keep ordinary metal items separate from wet waste. Ask your local collector or scrap service which sizes and forms it accepts; containers with chemical residue need another route.",
+          "sources": [{
+            "title": "Solid Waste Management Rules, 2026 — dry waste",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219676&lang=2&reg=48",
+            "reviewedAt": "2026-10-11"
+          }]
+        },
+        "plastic": {
+          "title": "Keep ordinary plastic waste separate from wet waste",
+          "text": "India's Solid Waste Management Rules require waste to be separated at source. Keep ordinary plastic waste in the dry-waste stream and follow your local body's collection directions. Whether a specific plastic item can be recycled still depends on local acceptance and contamination.",
+          "sources": [
+            {
+              "title": "Solid Waste Management Rules, 2026 — Rule 5",
+              "url": "https://moef.gov.in/uploads/pdf-uploads/pdf_69a16e3b04c107.91022257.pdf",
+              "reviewedAt": "2026-10-08"
+            }
+          ]
+        },
+        "organic": {
+          "title": "Separate food scraps as wet waste",
+          "text": "Food waste is part of the wet-waste stream under India's Solid Waste Management Rules. Keep it separate from dry waste and follow your local body's collection or processing directions.",
+          "sources": [
+            {
+              "title": "Solid Waste Management Rules, 2026 — definitions and Rule 5",
+              "url": "https://moef.gov.in/uploads/pdf-uploads/pdf_69a16e3b04c107.91022257.pdf",
+              "reviewedAt": "2026-10-08"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
